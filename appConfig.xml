@@ -1,4 +1,5 @@
 <appDefinition>
+   <appId>securePass</appId>
    <id>securePass</id>
    <version></version>
    <name>Secure Pass</name>
@@ -11,5 +12,6 @@
    <environmentVariableList/>
    <messageList/>
    <resourceList/>
+   <license>DCivlva/zTiuDyi6xHb+BITG/+aO+4bRONp/FYwYeZMKakT6ji3qPTrGgdl1kDRW</license>
    <createdBy>admin</createdBy>
 </appDefinition>

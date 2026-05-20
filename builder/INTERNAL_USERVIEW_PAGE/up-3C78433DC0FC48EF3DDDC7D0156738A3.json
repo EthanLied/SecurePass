@@ -1,0 +1,242 @@
+{
+    "elements": [
+        {
+            "elements": [{
+                "elements": [
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "attr-data-events-listening": [],
+                                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#49b6d6}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-icon col-2  text-center\" \n             style=\"font-size: 42px; \n                    color: #fff;\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n        <div class=\"stats-info col-10 text-center d-flex align-items-center\"\n             style=\"font-size: 18px;\">\n            {{title||TOTAL VISITORS}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                                "reload": "",
+                                "color": "#303F9F",
+                                "icon": "<i class=\"fas fa-plus-circle\"><\/i>",
+                                "link": "application_submit",
+                                "bgImg": "",
+                                "id": "18492A130CA74BD67CAD78867A42F8D8",
+                                "title": "Submit New Application",
+                                "customId": "",
+                                "value": "3,291,922",
+                                "height": ""
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {}
+                    },
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "attr-data-events-listening": [],
+                                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#49b6d6}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-icon col-4\" \n             style=\"font-size: 42px; \n                    color: #fff;\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n        <div class=\"stats-info col-8  text-right\">\n            <h4 style=\"font-size: 18px; font-weight:300;\n                       margin: 3px 0;\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 0;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                                "reload": "",
+                                "color": "#011970",
+                                "icon": "<i class=\"fas fa-redo\"><\/i>",
+                                "link": "application_clarification",
+                                "bgImg": "",
+                                "id": "7A04FE7AE23C4F6431BDF6F03E00FC60",
+                                "title": "Pending Clarification",
+                                "customId": "",
+                                "value": "#uiListCount.application_clarification#",
+                                "height": ""
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {}
+                    },
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "attr-data-events-listening": [],
+                                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#49b6d6}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-icon col-4\" \n             style=\"font-size: 42px; \n                    color: #fff;\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n        <div class=\"stats-info col-8  text-right\">\n            <h4 style=\"font-size: 18px; font-weight:300;\n                       margin: 3px 0;\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 0;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                                "reload": "",
+                                "color": "#348FE2",
+                                "icon": "<i class=\"fas fa-inbox\"><\/i>",
+                                "link": "application_approval",
+                                "bgImg": "",
+                                "id": "84D39AA9A52D46735025932CF8253BE5",
+                                "title": "Approval Inbox",
+                                "customId": "",
+                                "value": "#uiListCount.application_approval#",
+                                "height": ""
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {"id": "E3F53BD173CF4F5B37E1806051475BA8"}
+                    }
+                ],
+                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                "properties": {
+                    "gutter": "5px",
+                    "columns": [
+                        {"style-max-width": ""},
+                        {"style-max-width": ""},
+                        {"style-max-width": ""}
+                    ],
+                    "css-mobile-stack-columns": "true",
+                    "id": "E3CE0E6A4A8B4D60EF96D7EBD363468F"
+                }
+            }],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-padding-right": "0px",
+                "style-padding-bottom": "0px",
+                "style-margin-bottom": "15px",
+                "id": "1497A44D9E2A49508BD905AA1379F592",
+                "style-padding-top": "0px",
+                "customId": "",
+                "style-padding-left": "0px"
+            }
+        },
+        {
+            "elements": [{
+                "elements": [
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "attr-data-events-listening": [],
+                                "template": "<!--{sampleWidth: '320px', tags: 'light-bg icon progress'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            overflow: hidden;\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 0px 0px 3px;\n                       color: rgba(0,0,0,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 10px;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"position:relative\">\n            <span style=\"left:-10px; \n                         position:absolute; \n                         opacity: .1; \n                         font-size: 140px; \n                         color: {{color||#49b6d6}};\n                         text-shadow: 3px 7px rgb(0 0 0 / 25%);\n                         line-height: 0;\">\n                {{icon||<i class=\"fas fa-globe\"><\/i>}}\n            <\/span>\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                                "color": "#348FE2",
+                                "icon": "<i class=\"far fa-file-alt\"><\/i>",
+                                "link": "application_mysubmitted",
+                                "bgImg": "",
+                                "title": "My In Progress Application",
+                                "customId": "",
+                                "reload": "",
+                                "bgColor": "",
+                                "id": "CD2A1D7193494D7CD1B907CD5553D788",
+                                "value": "#uiListCount.application_mysubmitted#",
+                                "height": "120px"
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {}
+                    },
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "attr-data-events-listening": [],
+                                "template": "<!--{sampleWidth: '320px', tags: 'light-bg icon progress'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            overflow: hidden;\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 0px 0px 3px;\n                       color: rgba(0,0,0,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 10px;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"position:relative\">\n            <span style=\"left:-10px; \n                         position:absolute; \n                         opacity: .1; \n                         font-size: 140px; \n                         color: {{color||#49b6d6}};\n                         text-shadow: 3px 7px rgb(0 0 0 / 25%);\n                         line-height: 0;\">\n                {{icon||<i class=\"fas fa-globe\"><\/i>}}\n            <\/span>\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                                "color": "#239A0F",
+                                "icon": "<i class=\"fas fa-check-circle\"><\/i>",
+                                "link": "application_mycompleted",
+                                "bgImg": "",
+                                "title": "My Closed Application",
+                                "customId": "",
+                                "reload": "",
+                                "bgColor": "",
+                                "id": "EF244A0A8C0D4573C60477404E3B6A35",
+                                "value": "#uiListCount.application_mycompleted#",
+                                "height": "120px"
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {}
+                    },
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "attr-data-events-listening": [],
+                                "template": "<!--{sampleWidth: '320px', tags: 'light-bg icon progress'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            overflow: hidden;\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 0px 0px 3px;\n                       color: rgba(0,0,0,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 10px;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"position:relative\">\n            <span style=\"left:-10px; \n                         position:absolute; \n                         opacity: .1; \n                         font-size: 140px; \n                         color: {{color||#49b6d6}};\n                         text-shadow: 3px 7px rgb(0 0 0 / 25%);\n                         line-height: 0;\">\n                {{icon||<i class=\"fas fa-globe\"><\/i>}}\n            <\/span>\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                                "color": "#01AAAC",
+                                "icon": "<i class=\"fas fa-briefcase\"><\/i>",
+                                "link": "application_myparticipated",
+                                "bgImg": "",
+                                "title": "My Participated Application",
+                                "customId": "",
+                                "reload": "",
+                                "bgColor": "",
+                                "id": "A80B5DBA786740D34CE07A6D57795735",
+                                "value": "#uiListCount.application_myparticipated#",
+                                "height": "120px"
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {"id": "8B6653DE262D49AD93AAC0089831A472"}
+                    },
+                    {
+                        "elements": [{
+                            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                            "properties": {
+                                "attr-data-events-listening": [],
+                                "template": "<!--{sampleWidth: '320px', tags: 'light-bg icon progress'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            overflow: hidden;\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 0px 0px 3px;\n                       color: rgba(0,0,0,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 10px;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"position:relative\">\n            <span style=\"left:-10px; \n                         position:absolute; \n                         opacity: .1; \n                         font-size: 140px; \n                         color: {{color||#49b6d6}};\n                         text-shadow: 3px 7px rgb(0 0 0 / 25%);\n                         line-height: 0;\">\n                {{icon||<i class=\"fas fa-globe\"><\/i>}}\n            <\/span>\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                                "color": "#F50808",
+                                "icon": "<i class=\"fas fa-trash\"><\/i>",
+                                "link": "application_mywithdrawn",
+                                "bgImg": "",
+                                "title": "My Withdrawn Application",
+                                "customId": "",
+                                "reload": "",
+                                "bgColor": "",
+                                "id": "3C616794F02C4A20A05094B9FDA58EC1",
+                                "value": "#uiListCount.application_mywithdrawn#",
+                                "height": "120px"
+                            }
+                        }],
+                        "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                        "properties": {"id": "9904A1E60F64462E23A689730762AF2D"}
+                    }
+                ],
+                "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+                "properties": {
+                    "gutter": "5px",
+                    "columns": [
+                        {"style-max-width": ""},
+                        {"style-max-width": ""},
+                        {"style-max-width": ""},
+                        {"style-max-width": ""}
+                    ],
+                    "css-mobile-stack-columns": "true",
+                    "id": "BE4553248DCB456E654B06D77B701F3B"
+                }
+            }],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-padding-right": "0px",
+                "style-padding-bottom": "0px",
+                "style-margin-bottom": "15px",
+                "id": "9D0011D2465A4438651142AD23417A59",
+                "style-padding-top": "0px",
+                "customId": "",
+                "style-padding-left": "0px"
+            }
+        },
+        {
+            "elements": [
+                {
+                    "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+                    "properties": {
+                        "attr-data-events-listening": [],
+                        "style-margin-bottom": "15px",
+                        "textContent": "My Application",
+                        "id": "05701384842941AAE3D19FE226A9E132",
+                        "tagName": "h4",
+                        "customId": ""
+                    }
+                },
+                {"className": "menu-component"}
+            ],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-background-color": "#FFF",
+                "style-padding-right": "20px",
+                "style-padding-bottom": "20px",
+                "id": "B7D4D455264F4B00E2EB6F20C4FDB873",
+                "style-padding-top": "20px",
+                "customId": "",
+                "style-border-radius": "10px",
+                "style-padding-left": "20px"
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-3C78433DC0FC48EF3DDDC7D0156738A3"}
+}

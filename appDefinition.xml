@@ -20,6 +20,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process1::activity3</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity3</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::activity2</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>

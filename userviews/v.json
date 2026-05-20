@@ -39,7 +39,7 @@
                         "fieldPassoverMethod": "append",
                         "keyName": "",
                         "enableOffline": "",
-                        "label": "Submit Application",
+                        "label": "Submit Applications",
                         "paramName": "",
                         "redirectTarget": "",
                         "customId": "application_submit",
@@ -47,11 +47,13 @@
                         "userviewCacheDuration": "20",
                         "showInPopupDialog": "",
                         "userviewCacheScope": "",
+                        "actionAfterSaved": "",
                         "runProcessSubmitLabel": "",
                         "id": "0c5f0d69-db07-45da-a0d7-7280af0db1f3",
                         "fieldPassover": "",
                         "processDefId": "application_approver_process",
-                        "redirectUrlAfterComplete": "application_mysubmitted"
+                        "redirectUrlAfterComplete": "application_mysubmitted",
+                        "iconIncluded": false
                     }
                 },
                 {

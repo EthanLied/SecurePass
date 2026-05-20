@@ -48,7 +48,7 @@
                             "properties": {}
                         },
                         "workflowVariable": "",
-                        "label": "Radio",
+                        "label": "Entry",
                         "id": "field2",
                         "value": "",
                         "readonlyLabel": ""

@@ -1,0 +1,23 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "label": "Section",
+            "id": "section1"
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "WF-1 Park  Entry Form",
+        "description": "",
+        "id": "WF_1_Park_Entry_Form",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "Park_Entry_Form"
+    }
+}

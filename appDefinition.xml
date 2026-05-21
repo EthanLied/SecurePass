@@ -13,7 +13,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>ridemanagerformwf1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -24,7 +23,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -44,7 +42,6 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>ridemanagerformwf3</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -64,7 +61,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>formsubmissionwf1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -93,7 +89,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>parkmanagerformwf1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>

@@ -66,27 +66,11 @@
     }],
     "className": "org.joget.apps.form.model.Form",
     "properties": {
-        "noPermissionMessage": "",
-        "loadBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
-        },
-        "name": "WF1-Park Manager Approval",
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "WF-1 Park Manager Approval",
         "description": "",
-        "postProcessorRunOn": "create",
-        "permission": {
-            "className": "",
-            "properties": {}
-        },
         "id": "parkManagerApproval",
-        "postProcessor": {
-            "className": "",
-            "properties": {}
-        },
-        "storeBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
-        },
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
         "tableName": "park_manager_appr"
     }
 }

@@ -9,17 +9,6 @@
          <name>Secure Pass</name>
          <packageActivityFormMap>
             <entry>
-               <string>process1::formsubmissionwf1</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>formsubmissionwf1</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::ridemanagerformwf1</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -37,6 +26,64 @@
                   <activityDefId>runProcess</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::ridemanagerformwf2</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>ridemanagerformwf2</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::formsubmissionwf1</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>formsubmissionwf1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::parkmanagerformwf3</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>parkmanagerformwf3</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::securityTeamForm</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>securityTeamForm</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>

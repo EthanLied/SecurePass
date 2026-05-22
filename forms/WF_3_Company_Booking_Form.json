@@ -158,13 +158,57 @@
                         },
                         "readonly": "",
                         "deleteGridData": "",
-                        "options": [{
-                            "format": "",
-                            "width": "",
-                            "label": "Full Name",
-                            "formatType": "text",
-                            "value": "full_name"
-                        }],
+                        "options": [
+                            {
+                                "format": "",
+                                "width": "",
+                                "label": "Full Name",
+                                "formatType": "text",
+                                "value": "full_name"
+                            },
+                            {
+                                "format": "",
+                                "width": "",
+                                "label": "Age",
+                                "formatType": "text",
+                                "value": "age"
+                            },
+                            {
+                                "format": "",
+                                "width": "",
+                                "label": "Height (cm)",
+                                "formatType": "decimal",
+                                "value": "height_cm"
+                            },
+                            {
+                                "format": "",
+                                "width": "",
+                                "label": "Weight (KG)",
+                                "formatType": "decimal",
+                                "value": "weight_kg"
+                            },
+                            {
+                                "format": "",
+                                "width": "",
+                                "label": "Phone Number",
+                                "formatType": "text",
+                                "value": "phone_number_with_country_code"
+                            },
+                            {
+                                "format": "",
+                                "width": "",
+                                "label": "Medical Conditions",
+                                "formatType": "nl2br",
+                                "value": "medical_conditions_optional"
+                            },
+                            {
+                                "format": "",
+                                "width": "",
+                                "label": "Others",
+                                "formatType": "nl2br",
+                                "value": "other_optional"
+                            }
+                        ],
                         "id": "member_list",
                         "abortRelatedRunningProcesses": "",
                         "height": "500",

@@ -68,8 +68,12 @@
                         "requiredSanitize": "",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Phone Number (With country Code)",
                         "disableIncrementDecrementArrow": "",
@@ -92,8 +96,12 @@
                         "requiredSanitize": "",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Height (CM)",
                         "disableIncrementDecrementArrow": "",
@@ -116,8 +124,12 @@
                         "requiredSanitize": "",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Weight (KG)",
                         "disableIncrementDecrementArrow": "",
@@ -137,13 +149,29 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "false",
-                        "readonly": "False",
-                        "style": "",
+                        "requiredSanitize": "",
+                        "maxlength": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
                         "label": "Text Field",
+                        "disableIncrementDecrementArrow": "",
+                        "encryption": "",
+                        "readonly": "",
+                        "size": "",
+                        "workflowVariable": "",
+                        "style": "",
                         "id": "field5",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False"
+                        "placeholder": "",
+                        "iconIncluded": false,
+                        "value": "",
+                        "readonlyLabel": "",
+                        "storeNumeric": ""
                     }
                 },
                 {
@@ -152,8 +180,12 @@
                         "requiredSanitize": "",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Email",
                         "disableIncrementDecrementArrow": "",
@@ -177,8 +209,12 @@
                         "dataFormat": "yyyy-MM-dd",
                         "startDateFieldId": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "format": "",
                         "label": "Date of Entry",
@@ -201,8 +237,12 @@
                     "properties": {
                         "readonly": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "workflowVariable": "",
                         "label": "Entry Time",
@@ -218,8 +258,12 @@
                     "properties": {
                         "readonly": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "workflowVariable": "",
                         "label": "Exit Time",
@@ -240,7 +284,7 @@
                             "properties": {}
                         },
                         "workflowVariable": "",
-                        "label": "Medical Conditions",
+                        "label": "Medical Conditions (Optional)",
                         "id": "medical_conditions",
                         "placeholder": "",
                         "rows": "5",
@@ -259,7 +303,7 @@
                             "properties": {}
                         },
                         "workflowVariable": "",
-                        "label": "Other",
+                        "label": "Other Notes (Optional)",
                         "id": "other",
                         "placeholder": "",
                         "rows": "5",

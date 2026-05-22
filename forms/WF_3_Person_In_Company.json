@@ -61,11 +61,33 @@
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "readonly": "False",
-                        "multiple": "False",
+                        "controlField": "",
+                        "multiple": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
                         "label": "Select Box",
-                        "id": "field8",
-                        "readonlyLabel": "False"
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                            "properties": {
+                                "useAjax": "",
+                                "cacheInterval": "",
+                                "script": "import org.joget.apps.form.model.FormRow;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.service.FormUtil;\n\nFormRowSet rows = new FormRowSet();\n\n// Loop from 1 to 100\nfor (int i = 1; i <= 100; i++) {\n    FormRow row = new FormRow();\n    String ageStr = String.valueOf(i);\n    \n    // Set both the saved value and the display label to the age number\n    row.setProperty(FormUtil.PROPERTY_VALUE, ageStr);\n    row.setProperty(FormUtil.PROPERTY_LABEL, ageStr);\n    \n    rows.add(row);\n}\n\nreturn rows;"
+                            }
+                        },
+                        "options": [],
+                        "workflowVariable": "",
+                        "id": "selectbox",
+                        "iconIncluded": false,
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 },
                 {
@@ -81,14 +103,14 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Text Field",
+                        "label": "Height (CM)",
                         "disableIncrementDecrementArrow": "",
                         "encryption": "",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "field1",
+                        "id": "height_cm",
                         "placeholder": "",
                         "iconIncluded": false,
                         "value": "",
@@ -109,14 +131,14 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Text Field",
+                        "label": "Weight (KG)",
                         "disableIncrementDecrementArrow": "",
                         "encryption": "",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "field1",
+                        "id": "weight_kg",
                         "placeholder": "",
                         "iconIncluded": false,
                         "value": "",
@@ -137,14 +159,14 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Text Field",
+                        "label": "Phone Number (with country code)",
                         "disableIncrementDecrementArrow": "",
                         "encryption": "",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "field1",
+                        "id": "phone_number_with_country_code",
                         "placeholder": "",
                         "iconIncluded": false,
                         "value": "",
@@ -158,16 +180,12 @@
                         "requiredSanitize": "",
                         "readonly": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
+                            "className": "",
+                            "properties": {}
                         },
                         "workflowVariable": "",
-                        "label": "Text Area",
-                        "id": "field7",
+                        "label": "Medical Conditions (optional)",
+                        "id": "medical_conditions_optional",
                         "placeholder": "",
                         "rows": "5",
                         "cols": "20",
@@ -181,16 +199,12 @@
                         "requiredSanitize": "",
                         "readonly": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
+                            "className": "",
+                            "properties": {}
                         },
                         "workflowVariable": "",
-                        "label": "Text Area",
-                        "id": "field7",
+                        "label": "Other (optional)",
+                        "id": "other_optional",
                         "placeholder": "",
                         "rows": "5",
                         "cols": "20",

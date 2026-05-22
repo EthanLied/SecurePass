@@ -131,192 +131,61 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "maxlength": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "label": "Booker's full name",
-                        "disableIncrementDecrementArrow": "",
-                        "encryption": "",
-                        "readonly": "",
-                        "size": "",
-                        "workflowVariable": "",
-                        "style": "",
-                        "id": "booker_s_full_name",
-                        "placeholder": "",
-                        "iconIncluded": false,
-                        "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.Grid",
+                    "className": "org.joget.plugin.enterprise.FormGrid",
                     "properties": {
                         "validateMaxRow": "",
+                        "formDefId": "WF_2_Wheelchair_Request_Form",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "pageSize": "20",
+                        "requestParams": [],
+                        "enableSorting": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
                         "readonly": "",
+                        "deleteGridData": "",
+                        "options": [{
+                            "format": "",
+                            "width": "",
+                            "label": "s",
+                            "formatType": "text",
+                            "value": "test"
+                        }],
+                        "id": "formgrid",
+                        "abortRelatedRunningProcesses": "",
+                        "height": "500",
+                        "showRowNumber": "",
+                        "disabledDelete": "",
+                        "validateMinRow": "",
+                        "submit-label-normal": "",
+                        "uniqueKey": "",
+                        "errorMessage": "Invalid number of rows",
+                        "deleteSubformData": "",
+                        "deleteMessage": "",
+                        "label": "Form Grid",
+                        "deleteFiles": "",
                         "loadBinder": {
                             "className": "",
                             "properties": {}
                         },
-                        "validateMinRow": "",
-                        "errorMessage": "Invalid number of rows",
-                        "options": [
-                            {
-                                "label": "Full Name",
-                                "value": "Full Name"
-                            },
-                            {
-                                "label": "Age",
-                                "value": "Age"
-                            },
-                            {
-                                "label": "Height (CM)",
-                                "value": "Height (CM)"
-                            },
-                            {
-                                "label": "Weight (KG)",
-                                "value": "Weight (KG)"
-                            },
-                            {
-                                "label": "Phone Number (with country code)",
-                                "value": "Phone Number (with country code)"
-                            },
-                            {
-                                "label": "Additional Notes",
-                                "value": "Additional Notes"
-                            }
-                        ],
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "label": "People in company booking",
-                        "id": "people_in_company_booking",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        }
+                        "disabledAdd": "",
+                        "submit-label-readonly": "",
+                        "width": "900",
+                        "readonlyLabel": ""
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.CustomHTML",
                     "properties": {
                         "requiredSanitize": "",
-                        "maxlength": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "label": "Booker's full name",
-                        "disableIncrementDecrementArrow": "",
-                        "encryption": "",
-                        "readonly": "",
-                        "size": "",
-                        "workflowVariable": "",
-                        "style": "",
-                        "id": "booker_s_full_name",
-                        "placeholder": "",
-                        "iconIncluded": false,
-                        "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "maxlength": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "label": "Booker's full name",
-                        "disableIncrementDecrementArrow": "",
-                        "encryption": "",
-                        "readonly": "",
-                        "size": "",
-                        "workflowVariable": "",
-                        "style": "",
-                        "id": "booker_s_full_name",
-                        "placeholder": "",
-                        "iconIncluded": false,
-                        "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "maxlength": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "label": "Booker's full name",
-                        "disableIncrementDecrementArrow": "",
-                        "encryption": "",
-                        "readonly": "",
-                        "size": "",
-                        "workflowVariable": "",
-                        "style": "",
-                        "id": "booker_s_full_name",
-                        "placeholder": "",
-                        "iconIncluded": false,
-                        "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "maxlength": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "label": "Booker's full name",
-                        "disableIncrementDecrementArrow": "",
-                        "encryption": "",
-                        "readonly": "",
-                        "size": "",
-                        "workflowVariable": "",
-                        "style": "",
-                        "id": "booker_s_full_name",
-                        "placeholder": "",
-                        "iconIncluded": false,
-                        "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "forminstructions",
+                        "value": "<div style=\"background-color: #f4f6f9; border-left: 4px solid #007bff; padding: 12px; margin-bottom: 10px; border-radius: 4px;\">\n    <p style=\"margin: 0; font-size: 14px; color: #333;\"><strong>For the form below:<\/strong><br>\n       - Click the blue <strong>➕ button<\/strong> at the bottom left of the table to add a new person in the company booking. <br> - At least 1 person is required to be listed in the company booking <br> - Use the checkboxes on the left side to select rows for bulk actions.\n    <\/p>\n<\/div>"
                     }
                 }
             ],

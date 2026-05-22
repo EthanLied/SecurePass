@@ -61,6 +61,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>formsubmissionwf1</activityDefId>
+                  <formId>WF_1_Park_Entry_Form</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>

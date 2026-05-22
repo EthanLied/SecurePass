@@ -148,13 +148,22 @@
                         },
                         "readonly": "",
                         "deleteGridData": "",
-                        "options": [{
-                            "format": "",
-                            "width": "",
-                            "label": "s",
-                            "formatType": "text",
-                            "value": "test"
-                        }],
+                        "options": [
+                            {
+                                "format": "",
+                                "width": "",
+                                "label": "s",
+                                "formatType": "text",
+                                "value": "test"
+                            },
+                            {
+                                "format": "",
+                                "width": "",
+                                "label": "d",
+                                "formatType": "text",
+                                "value": "d"
+                            }
+                        ],
                         "id": "formgrid",
                         "abortRelatedRunningProcesses": "",
                         "height": "500",

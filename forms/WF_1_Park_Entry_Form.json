@@ -8,8 +8,12 @@
                         "requiredSanitize": "",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Full Name",
                         "disableIncrementDecrementArrow": "",
@@ -32,8 +36,12 @@
                         "controlField": "",
                         "multiple": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Age",
                         "readonly": "",
@@ -223,15 +231,41 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
-                        "encryption": "false",
-                        "readonly": "False",
-                        "style": "",
-                        "label": "Text Field",
-                        "id": "field6",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False"
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Medical Conditions",
+                        "id": "medical_conditions",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Other",
+                        "id": "other",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 }
             ],

@@ -110,16 +110,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.CustomHTML",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "autoPopulate": "",
-                        "label": "",
-                        "id": "forminstructions",
-                        "value": "<div style=\"background-color: #f4f6f9; border-left: 4px solid #007bff; padding: 12px; margin-bottom: 10px; border-radius: 4px;\">\n    <p style=\"margin: 0; font-size: 14px; color: #333;\"><strong>For the form below:<\/strong><br>\n       - Click the blue <strong>➕ button<\/strong> at the bottom left of the table to add a new person in the company booking. <br> - At least 1 person is required to be listed in the company booking <br> - Use the checkboxes on the left side to select rows for bulk actions.\n    <\/p>\n<\/div>"
-                    }
-                },
-                {
                     "className": "org.joget.plugin.enterprise.TimePicker",
                     "properties": {
                         "readonly": "",
@@ -138,6 +128,16 @@
                         "value": "",
                         "readonlyLabel": "",
                         "format24hr": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "forminstructions",
+                        "value": "<div style=\"background-color: #f4f6f9; border-left: 4px solid #007bff; padding: 12px; margin-bottom: 10px; border-radius: 4px;\">\n    <p style=\"margin: 0; font-size: 14px; color: #333;\"><strong>For the form below:<\/strong><br>\n       - Click the blue <strong>➕ button<\/strong> at the bottom left of the table to add a new person in the company booking. <br> - At least 1 person is required to be listed in the company booking <br> - Use the checkboxes on the left side to select rows for bulk actions.\n    <\/p>\n<\/div>"
                     }
                 },
                 {

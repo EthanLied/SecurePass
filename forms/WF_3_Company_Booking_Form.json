@@ -144,7 +144,7 @@
                     "className": "org.joget.plugin.enterprise.FormGrid",
                     "properties": {
                         "validateMaxRow": "",
-                        "formDefId": "WF_2_Wheelchair_Request_Form",
+                        "formDefId": "WF_3_Person_In_Company",
                         "validator": {
                             "className": "",
                             "properties": {}
@@ -163,7 +163,7 @@
                             "width": "",
                             "label": "Full Name",
                             "formatType": "text",
-                            "value": "requester_full_name"
+                            "value": "full_name"
                         }],
                         "id": "member_list",
                         "abortRelatedRunningProcesses": "",

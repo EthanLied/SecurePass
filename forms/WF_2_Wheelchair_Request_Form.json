@@ -348,8 +348,29 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
-            "label": "Section",
-            "id": "section1"
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Wheelchair Request Form",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "wheelchair_request_form",
+            "join": "",
+            "readonlyLabel": ""
         }
     }],
     "className": "org.joget.apps.form.model.Form",

@@ -187,6 +187,25 @@
                         "width": "900",
                         "readonlyLabel": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Additional requests (optional)",
+                        "id": "additional_requests_optional",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",

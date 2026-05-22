@@ -175,35 +175,35 @@
                             },
                             {
                                 "format": "",
-                                "width": "5%",
+                                "width": "3%",
                                 "label": "Height (cm)",
                                 "formatType": "decimal",
                                 "value": "height_cm"
                             },
                             {
                                 "format": "",
-                                "width": "5%",
+                                "width": "3%",
                                 "label": "Weight (KG)",
                                 "formatType": "decimal",
                                 "value": "weight_kg"
                             },
                             {
                                 "format": "",
-                                "width": "20%",
+                                "width": "10%",
                                 "label": "Phone Number",
                                 "formatType": "text",
                                 "value": "phone_number_with_country_code"
                             },
                             {
                                 "format": "",
-                                "width": "250px",
+                                "width": "30%",
                                 "label": "Medical Conditions",
                                 "formatType": "nl2br",
                                 "value": "medical_conditions_optional"
                             },
                             {
                                 "format": "",
-                                "width": "24%",
+                                "width": "31%",
                                 "label": "Others",
                                 "formatType": "nl2br",
                                 "value": "other_optional"

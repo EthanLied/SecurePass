@@ -1,0 +1,23 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "label": "Section",
+            "id": "section1"
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "WF-3 Person In Company",
+        "description": "",
+        "id": "WF_3_Person_In_Company",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "Person_In_Company"
+    }
+}

@@ -170,7 +170,7 @@
                         "height": "500",
                         "showRowNumber": "true",
                         "disabledDelete": "",
-                        "validateMinRow": "",
+                        "validateMinRow": "1",
                         "submit-label-normal": "",
                         "uniqueKey": "",
                         "errorMessage": "Invalid number of rows",

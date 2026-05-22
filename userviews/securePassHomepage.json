@@ -2,19 +2,50 @@
     "className": "org.joget.apps.userview.model.Userview",
     "categories": [{
         "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [{
-            "className": "org.joget.apps.userview.lib.HtmlPage",
-            "properties": {
-                "userviewCacheDuration": "",
-                "userviewCacheScope": "",
-                "id": "deee4ab9-e653-4f3f-94de-b3ebea5fbeb7",
-                "label": "Welcome",
-                "enableOffline": "",
-                "customId": "welcome",
-                "content": "<p>p<\/p>",
-                "style-display": "none"
+        "menus": [
+            {
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "userviewCacheDuration": "",
+                    "userviewCacheScope": "",
+                    "id": "deee4ab9-e653-4f3f-94de-b3ebea5fbeb7",
+                    "label": "Submit Ride Entry Request",
+                    "enableOffline": "",
+                    "iconIncluded": false,
+                    "customId": "submit_ride_entry_request",
+                    "content": "<p>p<\/p>",
+                    "style-display": "none"
+                }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "userviewCacheDuration": "",
+                    "userviewCacheScope": "",
+                    "id": "6E8DD0BC38C24F8B2F9E3800CF10ACA7",
+                    "label": "Submit Wheelchair Usage Request",
+                    "enableOffline": "",
+                    "iconIncluded": false,
+                    "customId": "submit_wheelchair_usage",
+                    "content": "<p>p<\/p>",
+                    "style-display": "none"
+                }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "userviewCacheDuration": "",
+                    "userviewCacheScope": "",
+                    "id": "71D41759072F411C844E4A8EFAB0B6C7",
+                    "label": "Submit Company Booking Request",
+                    "enableOffline": "",
+                    "iconIncluded": false,
+                    "customId": "submit_company_booking_request",
+                    "content": "<p>p<\/p>",
+                    "style-display": "none"
+                }
             }
-        }],
+        ],
         "properties": {
             "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
             "label": "<i class='fa fa-home'><\/i> Home"

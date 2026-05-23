@@ -137,6 +137,14 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process1::rideManagerwf1</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>rideManagerwf1</participantId>
+                  <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process1::customerwf1</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
@@ -150,14 +158,6 @@
                <packageParticipant>
                   <processDefId>process3</processDefId>
                   <participantId>securityTeam</participantId>
-                  <type>requesterHod</type>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process1::rideManagerwf1</string>
-               <packageParticipant>
-                  <processDefId>process1</processDefId>
-                  <participantId>rideManagerwf1</participantId>
                   <type>requesterHod</type>
                </packageParticipant>
             </entry>

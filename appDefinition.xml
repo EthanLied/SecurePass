@@ -145,6 +145,24 @@
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
+            <entry>
+               <string>process1::rideManagerwf1</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>rideManagerwf1</participantId>
+                  <type>requesterHod</type>
+                  <value></value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process1::customerwf1</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>customerwf1</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
          </packageParticipantMap>
       </packageDefinition>
    </packageDefinitionList>

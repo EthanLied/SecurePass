@@ -62,8 +62,6 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>securityTeamForm</activityDefId>
-                  <formId>securityTeamapproval</formId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -139,27 +137,10 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process1::rideManagerwf1</string>
-               <packageParticipant>
-                  <processDefId>process1</processDefId>
-                  <participantId>rideManagerwf1</participantId>
-                  <type>requesterHod</type>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>process1::customerwf1</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
                   <participantId>customerwf1</participantId>
-                  <type>requester</type>
-                  <value>runProcess</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process3::cutomerwf3</string>
-               <packageParticipant>
-                  <processDefId>process3</processDefId>
-                  <participantId>cutomerwf3</participantId>
                   <type>requester</type>
                   <value>runProcess</value>
                </packageParticipant>
@@ -170,6 +151,23 @@
                   <processDefId>process3</processDefId>
                   <participantId>securityTeam</participantId>
                   <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process1::rideManagerwf1</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>rideManagerwf1</participantId>
+                  <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::cutomerwf3</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>cutomerwf3</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

@@ -49,15 +49,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process3::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::formsubmissionwf1</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -91,6 +82,17 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>parkmanagerformwf1</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::submitCompanyBookingForm</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>submitCompanyBookingForm</activityDefId>
+                  <formId>WF_3_Company_Booking_Form</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -161,6 +163,24 @@
                   <participantId>customerwf1</participantId>
                   <type>requester</type>
                   <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::cutomerwf3</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>cutomerwf3</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::securityTeam</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>securityTeam</participantId>
+                  <type>requesterHod</type>
+                  <value></value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

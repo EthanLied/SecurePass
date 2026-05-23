@@ -39,11 +39,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::formsubmissionwf1</string>
+               <string>process3::ridemanagerformwf3</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>formsubmissionwf1</activityDefId>
-                  <formId>WF_1_Park_Entry_Form</formId>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>ridemanagerformwf3</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -54,6 +53,15 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>parkmanagerformwf3</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::securityTeamForm</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>securityTeamForm</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>

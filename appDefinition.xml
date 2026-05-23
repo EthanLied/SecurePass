@@ -9,6 +9,15 @@
          <name>Secure Pass</name>
          <packageActivityFormMap>
             <entry>
+               <string>process2::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::ridemanagerformwf1</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -39,11 +48,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process3::ridemanagerformwf3</string>
+               <string>process1::formsubmissionwf1</string>
                <packageActivityForm>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>ridemanagerformwf3</activityDefId>
-                  <type>SINGLE</type>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>formsubmissionwf1</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -53,15 +61,6 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>parkmanagerformwf3</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process3::securityTeamForm</string>
-               <packageActivityForm>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>securityTeamForm</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -83,6 +82,34 @@
                   <activityDefId>submitCompanyBookingForm</activityDefId>
                   <formId>WF_3_Company_Booking_Form</formId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process2::parkmanagerformwf2</string>
+               <packageActivityForm>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>parkmanagerformwf2</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::ridemanagerformwf3</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>ridemanagerformwf3</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::securityTeamForm</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>securityTeamForm</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -137,10 +164,27 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process1::rideManagerwf1</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>rideManagerwf1</participantId>
+                  <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process1::customerwf1</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
                   <participantId>customerwf1</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::cutomerwf3</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>cutomerwf3</participantId>
                   <type>requester</type>
                   <value>runProcess</value>
                </packageParticipant>
@@ -151,23 +195,6 @@
                   <processDefId>process3</processDefId>
                   <participantId>securityTeam</participantId>
                   <type>requesterHod</type>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process1::rideManagerwf1</string>
-               <packageParticipant>
-                  <processDefId>process1</processDefId>
-                  <participantId>rideManagerwf1</participantId>
-                  <type>requesterHod</type>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process3::cutomerwf3</string>
-               <packageParticipant>
-                  <processDefId>process3</processDefId>
-                  <participantId>cutomerwf3</participantId>
-                  <type>requester</type>
-                  <value>runProcess</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

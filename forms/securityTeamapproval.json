@@ -25,8 +25,12 @@
                             }
                         ],
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "workflowVariable": "",
                         "label": "Decision",

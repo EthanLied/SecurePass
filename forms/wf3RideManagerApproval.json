@@ -3,6 +3,39 @@
         "elements": [{
             "elements": [
                 {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "fullWidth": "",
+                        "controlField": "",
+                        "readonly": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "label": "Approved",
+                                "value": "Approved",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Rejected",
+                                "value": "Rejected",
+                                "grouping": ""
+                            }
+                        ],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Decision?",
+                        "id": "decision",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",
@@ -20,39 +53,6 @@
                         "value": "",
                         "readonlyLabel": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.Radio",
-                    "properties": {
-                        "fullWidth": "",
-                        "controlField": "",
-                        "readonly": "",
-                        "optionsBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "options": [
-                            {
-                                "label": "Accept",
-                                "value": "Accept",
-                                "grouping": ""
-                            },
-                            {
-                                "label": "Reject",
-                                "value": "Reject",
-                                "grouping": ""
-                            }
-                        ],
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "workflowVariable": "",
-                        "label": "Entry?",
-                        "id": "entry",
-                        "value": "",
-                        "readonlyLabel": ""
-                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
@@ -60,8 +60,29 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
-            "label": "Section",
-            "id": "section1"
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Ride Manager Approval Form WF3",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "ride_manager_approval_form_wf3",
+            "join": "",
+            "readonlyLabel": ""
         }
     }],
     "className": "org.joget.apps.form.model.Form",

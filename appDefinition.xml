@@ -43,6 +43,7 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>ridemanagerformwf3</activityDefId>
+                  <formId>wf3RideManagerApproval</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -53,6 +54,8 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>parkmanagerformwf3</activityDefId>
+                  <formId>parkManagerApproval</formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>

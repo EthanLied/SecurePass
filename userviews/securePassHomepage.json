@@ -33,17 +33,27 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "userviewCacheDuration": "",
-                        "userviewCacheScope": "",
-                        "id": "71D41759072F411C844E4A8EFAB0B6C7",
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
                         "label": "Submit Company Booking Request",
+                        "redirectTarget": "",
                         "enableOffline": "",
-                        "iconIncluded": false,
+                        "afterSavedReloadTarget": "true",
                         "customId": "submit_company_booking_request",
-                        "content": "<p>p<\/p>",
-                        "style-display": "none"
+                        "messageShowAfterComplete": "",
+                        "userviewCacheDuration": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "FF5C3CD8EE114278935598D845282D89",
+                        "iconIncluded": false,
+                        "processDefId": "process3",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
                     }
                 }
             ],
@@ -114,23 +124,12 @@
             "menus": [{
                 "className": "org.joget.apps.userview.lib.InboxMenu",
                 "properties": {
-                    "appFilter": "process",
-                    "list-customFooter": "",
-                    "cacheAllLinks": "",
-                    "assignment-customHeader": "",
-                    "assignment-customFooter": "",
+                    "appFilter": "all",
+                    "showPopup": "false",
                     "label": "Inbox",
-                    "enableOffline": "",
-                    "customId": "",
-                    "buttonPosition": "bothLeft",
-                    "userviewCacheDuration": "",
-                    "processId": "process3",
-                    "userviewCacheScope": "",
-                    "showPopup": "",
-                    "rowCount": "",
+                    "rowCount": "false",
                     "id": "0094002A3A05407577EDFBB44B18C759",
-                    "iconIncluded": false,
-                    "list-customHeader": ""
+                    "buttonPosition": "bothLeft"
                 }
             }],
             "properties": {

@@ -113,6 +113,15 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>process3::informsecurityteamapproved</string>
+               <packageActivityPlugin>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>informsecurityteamapproved</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.BeanShellTool&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;console.log(\&quot;Hello World!\&quot;)&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process1::WF1_RideManagerDecision</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
@@ -142,14 +151,6 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process1::rideManagerwf1</string>
-               <packageParticipant>
-                  <processDefId>process1</processDefId>
-                  <participantId>rideManagerwf1</participantId>
-                  <type>requesterHod</type>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>process1::customerwf1</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
@@ -167,12 +168,38 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process1::rideManagerwf1</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>rideManagerwf1</participantId>
+                  <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::rideManagerwf3</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>rideManagerwf3</participantId>
+                  <type>requesterHod</type>
+                  <value></value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process3::cutomerwf3</string>
                <packageParticipant>
                   <processDefId>process3</processDefId>
                   <participantId>cutomerwf3</participantId>
                   <type>requester</type>
                   <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::parkManagerwf3</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>parkManagerwf3</participantId>
+                  <type>requesterHod</type>
+                  <value></value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

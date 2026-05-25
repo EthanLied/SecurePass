@@ -169,7 +169,8 @@
                <packageParticipant>
                   <processDefId>process3</processDefId>
                   <participantId>securityTeam</participantId>
-                  <type>requesterHod</type>
+                  <type>user</type>
+                  <value>admin</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

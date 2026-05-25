@@ -139,6 +139,14 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process1::rideManagerwf1</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>rideManagerwf1</participantId>
+                  <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process1::customerwf1</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
@@ -156,38 +164,12 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process1::rideManagerwf1</string>
-               <packageParticipant>
-                  <processDefId>process1</processDefId>
-                  <participantId>rideManagerwf1</participantId>
-                  <type>requesterHod</type>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process3::rideManagerwf3</string>
-               <packageParticipant>
-                  <processDefId>process3</processDefId>
-                  <participantId>rideManagerwf3</participantId>
-                  <type>requesterHod</type>
-                  <value></value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>process3::cutomerwf3</string>
                <packageParticipant>
                   <processDefId>process3</processDefId>
                   <participantId>cutomerwf3</participantId>
                   <type>requester</type>
                   <value>runProcess</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process3::parkManagerwf3</string>
-               <packageParticipant>
-                  <processDefId>process3</processDefId>
-                  <participantId>parkManagerwf3</participantId>
-                  <type>requesterHod</type>
-                  <value></value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

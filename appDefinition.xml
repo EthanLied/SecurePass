@@ -165,6 +165,15 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>process3::informsecurityteamrejected</string>
+               <packageActivityPlugin>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>informsecurityteamrejected</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;ethanjy5428@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Security Team Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the security team has rejected your form for a company booking!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%C7Q9/vgKuFbmBdFC/pjWJgY1oAGZT+ADUDHSq1iVmJQ=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%C7Q9/vgKuFbmBdFC/pjWJgY1oAGZT+ADUDHSq1iVmJQ=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process1::informridemanagerapprovedwf1</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
@@ -264,15 +273,6 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>process3::informsecurityteamrejected2_2</string>
-               <packageActivityPlugin>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>informsecurityteamrejected2_2</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;ethanjy5428@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Security Team Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the security team has rejected your form for a company booking!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%C7Q9/vgKuFbmBdFC/pjWJgY1oAGZT+ADUDHSq1iVmJQ=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%C7Q9/vgKuFbmBdFC/pjWJgY1oAGZT+ADUDHSq1iVmJQ=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>process3::informsecurityteamapproved</string>
                <packageActivityPlugin>
                   <processDefId>process3</processDefId>
@@ -314,7 +314,7 @@
                   <processDefId>process3</processDefId>
                   <activityDefId>SecurityTeamDecision</activityDefId>
                   <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
-                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;WF3_SecurityTeamApproval&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;Approved&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition14&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition13&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
+                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;WF3_SecurityTeamApproval&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;Approved&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition14&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:null,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>

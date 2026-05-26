@@ -92,7 +92,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Security Team Approval WF3",
+            "label": "Security Team Approval Form WF3",
             "reverse": "",
             "storeBinder": {
                 "className": "",
@@ -106,7 +106,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "security_team_approval_wf3",
+            "id": "security_team_approval_form",
             "join": "",
             "readonlyLabel": ""
         }

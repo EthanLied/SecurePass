@@ -3,6 +3,28 @@
         "elements": [{
             "elements": [
                 {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "parentSubFormId": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "",
+                        "formDefId": "WF_1_Park_Entry_Form",
+                        "subFormParentId": "",
+                        "id": "subform",
+                        "label": "Subform",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.Radio",
                     "properties": {
                         "fullWidth": "",
@@ -70,7 +92,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Park Manager Approval WF1",
+            "label": "Park Manager Approval Form WF1",
             "reverse": "",
             "storeBinder": {
                 "className": "",
@@ -84,7 +106,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "section1",
+            "id": "park_manager_approval_form_wf1",
             "join": "",
             "readonlyLabel": ""
         }

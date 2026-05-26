@@ -177,20 +177,20 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process3::securityTeam</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>securityTeam</participantId>
+                  <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process3::cutomerwf3</string>
                <packageParticipant>
                   <processDefId>process3</processDefId>
                   <participantId>cutomerwf3</participantId>
                   <type>requester</type>
                   <value>runProcess</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process3::securityTeam</string>
-               <packageParticipant>
-                  <processDefId>process3</processDefId>
-                  <participantId>securityTeam</participantId>
-                  <type>requesterHod</type>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

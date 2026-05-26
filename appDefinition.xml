@@ -183,15 +183,6 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>process3::informsecurityteamrejected2</string>
-               <packageActivityPlugin>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>informsecurityteamrejected2</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.BeanShellTool&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;System.out.println(\&quot;Deadline Hit!\&quot;)&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>process2::WF2_ParkManagerApproval</string>
                <packageActivityPlugin>
                   <processDefId>process2</processDefId>

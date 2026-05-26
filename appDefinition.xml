@@ -138,15 +138,6 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
-               <string>process1::informridemanagerrejected_2</string>
-               <packageActivityPlugin>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>informridemanagerrejected_2</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;ethanjy5428@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Hello&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Your purchase request has been rejected!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%pG8QKLdIw6NM8bItZ0B/704aiDvVc259hUGhpJgaL3A=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%pG8QKLdIw6NM8bItZ0B/704aiDvVc259hUGhpJgaL3A=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>process1::WF1_ParkManagerDecision</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
@@ -183,21 +174,21 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>process3::informparkmanagerapprovedwf3</string>
-               <packageActivityPlugin>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>informparkmanagerapprovedwf3</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.BeanShellTool&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;System.out.println(\&quot;End WF3\&quot;)&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>process2::WF2_ParkManagerApproval</string>
                <packageActivityPlugin>
                   <processDefId>process2</processDefId>
                   <activityDefId>WF2_ParkManagerApproval</activityDefId>
                   <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
                   <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;WF2_ParkManagerApproval&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;Approved&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition3&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition2&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>process3::informparkmanagerapprovedwf3</string>
+               <packageActivityPlugin>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>informparkmanagerapprovedwf3</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.BeanShellTool&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;System.out.println(\&quot;End WF3\&quot;)&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>

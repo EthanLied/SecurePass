@@ -506,8 +506,8 @@
                         <TransitionRestriction>
                             <Split Type="XOR">
                                 <TransitionRefs>
-                                    <TransitionRef Id="transition17"/>
                                     <TransitionRef Id="transition18"/>
+                                    <TransitionRef Id="transition17"/>
                                 </TransitionRefs>
                             </Split>
                         </TransitionRestriction>
@@ -628,16 +628,6 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="360,346"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="informridemanagerrejectedwf3_2" Name="InformRideManagerRejectedWF3">
-                    <Implementation>
-                        <Tool Id="default_application"/>
-                    </Implementation>
-                    <Performer>rideManagerwf3</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="rideManagerwf3"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="360,914"/>
-                    </ExtendedAttributes>
-                </Activity>
                 <Activity Id="informparkmanagerrejectedwf3_2" Name="InformParkManagerRejectedWF3">
                     <Implementation>
                         <Tool Id="default_application"/>
@@ -666,6 +656,16 @@
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="securityTeam"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="160,706"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="informridemanagerrejected2" Name="InformRideManagerRejected_2">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>rideManagerwf3</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="rideManagerwf3"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="360,914"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
@@ -714,13 +714,6 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="ridemanagerformwf3" Id="transition17" To="informridemanagerrejectedwf3_2">
-                    <Condition Type="EXCEPTION">RideManagerTimeout</Condition>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
                 <Transition From="ridemanagerformwf3" Id="transition18" To="WF3_RideManagerDecision">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
@@ -763,13 +756,20 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
+                <Transition From="ridemanagerformwf3" Id="transition17" To="informridemanagerrejected2">
+                    <Condition Type="EXCEPTION">RideManagerTimeout</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
             </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="cutomerwf3;securityTeam;rideManagerwf3;parkManagerwf3"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=cutomerwf3,CONNECTING_ACTIVITY_ID=submitCompanyBookingForm,X_OFFSET=160,Y_OFFSET=-62,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=securityTeam,CONNECTING_ACTIVITY_ID=informsecurityteamrejected2,X_OFFSET=540,Y_OFFSET=346,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=securityTeam,CONNECTING_ACTIVITY_ID=informsecurityteamrejected2_2,X_OFFSET=540,Y_OFFSET=526,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=rideManagerwf3,CONNECTING_ACTIVITY_ID=informridemanagerrejectedwf3_2,X_OFFSET=540,Y_OFFSET=914,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=rideManagerwf3,CONNECTING_ACTIVITY_ID=informridemanagerrejected2,X_OFFSET=540,Y_OFFSET=914,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=rideManagerwf3,CONNECTING_ACTIVITY_ID=informridemanagerrejectedwf3,X_OFFSET=540,Y_OFFSET=1094,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf3,CONNECTING_ACTIVITY_ID=informparkmanagerrejectedwf3,X_OFFSET=540,Y_OFFSET=1662,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf3,CONNECTING_ACTIVITY_ID=informparkmanagerrejectedwf3_2,X_OFFSET=540,Y_OFFSET=1482,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>

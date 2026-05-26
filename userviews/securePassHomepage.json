@@ -290,7 +290,7 @@
             }
         },
         "permission": {
-            "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+            "className": "",
             "properties": {}
         },
         "userviewName": "Secure Pass Homepage"

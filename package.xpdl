@@ -452,13 +452,13 @@
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="securityTeamForm" Name="Security Team Form">
-                    <Limit>5</Limit>
+                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>
                     <Performer>securityTeam</Performer>
                     <Deadline Execution="SYNCHR">
-                        <DeadlineCondition>var m=new java.util.Date(); m.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(5*60000)); m;</DeadlineCondition>
+                        <DeadlineCondition>var h=new java.util.Date(); h.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(12*3600000)); h;</DeadlineCondition>
                         <ExceptionName>SecurityTeamTimeout</ExceptionName>
                     </Deadline>
                     <TransitionRestrictions>

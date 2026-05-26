@@ -457,7 +457,7 @@
                         <No/>
                     </Implementation>
                     <Performer>securityTeam</Performer>
-                    <Deadline Execution="SYNCHR">
+                    <Deadline Execution="ASYNCHR">
                         <DeadlineCondition>var m=new java.util.Date(); m.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(5*60000)); m;</DeadlineCondition>
                         <ExceptionName>SecurityTeamTimeout</ExceptionName>
                     </Deadline>

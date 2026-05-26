@@ -450,6 +450,7 @@
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="securityTeamForm" Name="Security Team Form">
+                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>
@@ -512,6 +513,7 @@
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="ridemanagerformwf3" Name="RideManagerFormWF3">
+                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>
@@ -574,6 +576,7 @@
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="parkmanagerformwf3" Name="ParkManagerFormWF3">
+                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>

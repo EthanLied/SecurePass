@@ -95,6 +95,8 @@
                <packageActivityForm>
                   <processDefId>process2</processDefId>
                   <activityDefId>parkmanagerformwf2</activityDefId>
+                  <formId>WF2_park_manager_approval</formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>

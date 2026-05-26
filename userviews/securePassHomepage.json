@@ -205,6 +205,7 @@
     },
     "setting": {"properties": {
         "userviewDescription": "",
+        "noPermissionMessage": "",
         "userviewId": "securePassHomepage",
         "theme": {
             "className": "org.joget.plugin.enterprise.BuilderTheme",
@@ -289,7 +290,7 @@
             }
         },
         "permission": {
-            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+            "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
             "properties": {}
         },
         "userviewName": "Secure Pass Homepage"

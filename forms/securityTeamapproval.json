@@ -3,6 +3,28 @@
         "elements": [{
             "elements": [
                 {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "parentSubFormId": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "",
+                        "formDefId": "WF_3_Company_Booking_Form",
+                        "subFormParentId": "",
+                        "id": "subform",
+                        "label": "Subform",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.Radio",
                     "properties": {
                         "fullWidth": "",
@@ -32,7 +54,7 @@
                                 "mandatory": "true"
                             }
                         },
-                        "workflowVariable": "",
+                        "workflowVariable": "WF3_SecurityTeamApproval",
                         "label": "Decision",
                         "id": "decision",
                         "value": "",

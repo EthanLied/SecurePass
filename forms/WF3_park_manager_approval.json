@@ -32,7 +32,7 @@
                                 "mandatory": "true"
                             }
                         },
-                        "workflowVariable": "",
+                        "workflowVariable": "WF3_ParkManagerApproval",
                         "label": "Decision",
                         "id": "decision",
                         "value": "",
@@ -70,7 +70,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Park Manager Approval WF1",
+            "label": "Park Manager Approval WF 3",
             "reverse": "",
             "storeBinder": {
                 "className": "",
@@ -84,7 +84,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "section1",
+            "id": "park_manager_approval_wf_3",
             "join": "",
             "readonlyLabel": ""
         }

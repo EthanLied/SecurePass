@@ -5,17 +5,27 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "userviewCacheDuration": "",
-                        "userviewCacheScope": "",
-                        "id": "deee4ab9-e653-4f3f-94de-b3ebea5fbeb7",
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
                         "label": "Submit Ride Entry Request",
+                        "redirectTarget": "",
                         "enableOffline": "",
-                        "iconIncluded": false,
+                        "afterSavedReloadTarget": "true",
                         "customId": "submit_ride_entry_request",
-                        "content": "<p>p<\/p>",
-                        "style-display": "none"
+                        "messageShowAfterComplete": "",
+                        "userviewCacheDuration": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "3A0569BFD1454C325755D68650281ADC",
+                        "iconIncluded": false,
+                        "processDefId": "process1",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
                     }
                 },
                 {

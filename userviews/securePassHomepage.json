@@ -141,28 +141,47 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.InboxMenu",
-                "properties": {
-                    "appFilter": "all",
-                    "list-customFooter": "",
-                    "cacheAllLinks": "",
-                    "assignment-customHeader": "",
-                    "assignment-customFooter": "",
-                    "label": "Inbox",
-                    "enableOffline": "",
-                    "customId": "",
-                    "buttonPosition": "bothLeft",
-                    "userviewCacheDuration": "",
-                    "processId": "process3",
-                    "userviewCacheScope": "",
-                    "showPopup": "",
-                    "rowCount": "",
-                    "id": "0094002A3A05407577EDFBB44B18C759",
-                    "iconIncluded": false,
-                    "list-customHeader": ""
+            "menus": [
+                {
+                    "className": "org.joget.plugin.enterprise.SlaReportMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "hasSlaOnly": "",
+                        "customHeader": "",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": "",
+                        "customFooter": "",
+                        "label": "SLA Report",
+                        "id": "4A24951FBDF043FF4D248E087804708A",
+                        "enableOffline": "",
+                        "iconIncluded": false,
+                        "processDefId": "process3",
+                        "customId": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.InboxMenu",
+                    "properties": {
+                        "appFilter": "all",
+                        "list-customFooter": "",
+                        "cacheAllLinks": "",
+                        "assignment-customHeader": "",
+                        "assignment-customFooter": "",
+                        "label": "Inbox",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "bothLeft",
+                        "userviewCacheDuration": "",
+                        "processId": "process3",
+                        "userviewCacheScope": "",
+                        "showPopup": "",
+                        "rowCount": "",
+                        "id": "0094002A3A05407577EDFBB44B18C759",
+                        "iconIncluded": false,
+                        "list-customHeader": ""
+                    }
                 }
-            }],
+            ],
             "properties": {
                 "hide": "",
                 "permission": {

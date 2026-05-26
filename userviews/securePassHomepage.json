@@ -9,6 +9,7 @@
                     "properties": {
                         "runProcessDirectly": "",
                         "fieldPassoverMethod": "append",
+                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                         "keyName": "",
                         "label": "Submit Ride Entry Request",
                         "redirectTarget": "",
@@ -33,6 +34,7 @@
                     "properties": {
                         "runProcessDirectly": "",
                         "fieldPassoverMethod": "append",
+                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                         "keyName": "",
                         "label": "Submit Wheelchair Usage Request",
                         "redirectTarget": "",
@@ -57,6 +59,7 @@
                     "properties": {
                         "runProcessDirectly": "",
                         "fieldPassoverMethod": "append",
+                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                         "keyName": "",
                         "label": "Submit Company Booking Request",
                         "redirectTarget": "",
@@ -79,6 +82,7 @@
             ],
             "properties": {
                 "hide": "",
+                "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -95,6 +99,7 @@
                 "className": "org.joget.apps.userview.lib.InboxMenu",
                 "properties": {
                     "appFilter": "all",
+                    "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                     "showPopup": "false",
                     "label": "Inbox",
                     "rowCount": "false",
@@ -104,6 +109,7 @@
             }],
             "properties": {
                 "hide": "",
+                "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -120,6 +126,7 @@
                 "className": "org.joget.apps.userview.lib.InboxMenu",
                 "properties": {
                     "appFilter": "all",
+                    "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                     "showPopup": "false",
                     "label": "Inbox",
                     "rowCount": "false",
@@ -129,6 +136,7 @@
             }],
             "properties": {
                 "hide": "",
+                "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -148,15 +156,16 @@
                         "cacheAllLinks": "",
                         "hasSlaOnly": "",
                         "customHeader": "",
-                        "userviewCacheDuration": "",
-                        "userviewCacheScope": "",
+                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                         "customFooter": "",
                         "label": "SLA Report",
-                        "id": "4A24951FBDF043FF4D248E087804708A",
                         "enableOffline": "",
+                        "customId": "",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": "",
+                        "id": "4A24951FBDF043FF4D248E087804708A",
                         "iconIncluded": false,
-                        "processDefId": "process3",
-                        "customId": ""
+                        "processDefId": "process3"
                     }
                 },
                 {
@@ -166,6 +175,7 @@
                         "list-customFooter": "",
                         "cacheAllLinks": "",
                         "assignment-customHeader": "",
+                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                         "assignment-customFooter": "",
                         "label": "Inbox",
                         "enableOffline": "",
@@ -184,6 +194,7 @@
             ],
             "properties": {
                 "hide": "",
+                "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -207,6 +218,14 @@
         "userviewDescription": "",
         "noPermissionMessage": "",
         "userviewId": "securePassHomepage",
+        "permission_rules": [{
+            "permission_key": "d74055e9-40d7-5e69-03d7-ff7707eb4487",
+            "permission": {
+                "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                "properties": {}
+            },
+            "permission_name": "Admin"
+        }],
         "theme": {
             "className": "org.joget.plugin.enterprise.BuilderTheme",
             "properties": {

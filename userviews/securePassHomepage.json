@@ -9,7 +9,10 @@
                     "properties": {
                         "runProcessDirectly": "",
                         "fieldPassoverMethod": "append",
-                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                        "permission_rules": {
+                            "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                            "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                        },
                         "keyName": "",
                         "label": "Submit Ride Entry Request",
                         "redirectTarget": "",
@@ -34,7 +37,10 @@
                     "properties": {
                         "runProcessDirectly": "",
                         "fieldPassoverMethod": "append",
-                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                        "permission_rules": {
+                            "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                            "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                        },
                         "keyName": "",
                         "label": "Submit Wheelchair Usage Request",
                         "redirectTarget": "",
@@ -59,7 +65,10 @@
                     "properties": {
                         "runProcessDirectly": "",
                         "fieldPassoverMethod": "append",
-                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                        "permission_rules": {
+                            "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                            "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                        },
                         "keyName": "",
                         "label": "Submit Company Booking Request",
                         "redirectTarget": "",
@@ -82,7 +91,10 @@
             ],
             "properties": {
                 "hide": "",
-                "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                "permission_rules": {
+                    "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                    "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                },
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -99,7 +111,10 @@
                 "className": "org.joget.apps.userview.lib.InboxMenu",
                 "properties": {
                     "appFilter": "all",
-                    "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                    "permission_rules": {
+                        "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                        "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                    },
                     "showPopup": "false",
                     "label": "Inbox",
                     "rowCount": "false",
@@ -109,7 +124,10 @@
             }],
             "properties": {
                 "hide": "",
-                "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                "permission_rules": {
+                    "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                    "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                },
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -126,7 +144,10 @@
                 "className": "org.joget.apps.userview.lib.InboxMenu",
                 "properties": {
                     "appFilter": "all",
-                    "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                    "permission_rules": {
+                        "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                        "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                    },
                     "showPopup": "false",
                     "label": "Inbox",
                     "rowCount": "false",
@@ -136,7 +157,10 @@
             }],
             "properties": {
                 "hide": "",
-                "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                "permission_rules": {
+                    "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                    "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                },
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -156,7 +180,10 @@
                         "cacheAllLinks": "",
                         "hasSlaOnly": "",
                         "customHeader": "",
-                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                        "permission_rules": {
+                            "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                            "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                        },
                         "customFooter": "",
                         "label": "SLA Report",
                         "enableOffline": "",
@@ -175,7 +202,10 @@
                         "list-customFooter": "",
                         "cacheAllLinks": "",
                         "assignment-customHeader": "",
-                        "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                        "permission_rules": {
+                            "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                            "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                        },
                         "assignment-customFooter": "",
                         "label": "Inbox",
                         "enableOffline": "",
@@ -194,7 +224,10 @@
             ],
             "properties": {
                 "hide": "",
-                "permission_rules": {"d74055e9-40d7-5e69-03d7-ff7707eb4487": {}},
+                "permission_rules": {
+                    "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                    "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
+                },
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -218,14 +251,27 @@
         "userviewDescription": "",
         "noPermissionMessage": "",
         "userviewId": "securePassHomepage",
-        "permission_rules": [{
-            "permission_key": "d74055e9-40d7-5e69-03d7-ff7707eb4487",
-            "permission": {
-                "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
-                "properties": {}
+        "permission_rules": [
+            {
+                "permission_key": "8a4f471d-c915-3e5d-6cf4-dfa6f034099a",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.UserPermission",
+                    "properties": {
+                        "allowedUsernames": "cat",
+                        "orgId": "ORG-001"
+                    }
+                },
+                "permission_name": "Security Team"
             },
-            "permission_name": "Admin"
-        }],
+            {
+                "permission_key": "d74055e9-40d7-5e69-03d7-ff7707eb4487",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                    "properties": {}
+                },
+                "permission_name": "Admin"
+            }
+        ],
         "theme": {
             "className": "org.joget.plugin.enterprise.BuilderTheme",
             "properties": {

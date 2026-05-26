@@ -94,23 +94,12 @@
             "menus": [{
                 "className": "org.joget.apps.userview.lib.InboxMenu",
                 "properties": {
-                    "appFilter": "process",
-                    "list-customFooter": "",
-                    "cacheAllLinks": "",
-                    "assignment-customHeader": "",
-                    "assignment-customFooter": "",
+                    "appFilter": "all",
+                    "showPopup": "false",
                     "label": "Inbox",
-                    "enableOffline": "",
-                    "customId": "",
-                    "buttonPosition": "bothLeft",
-                    "userviewCacheDuration": "",
-                    "processId": "process1",
-                    "userviewCacheScope": "",
-                    "showPopup": "",
-                    "rowCount": "",
+                    "rowCount": "false",
                     "id": "F0B06E9185D641CF0F6FD8910FD124EC",
-                    "iconIncluded": false,
-                    "list-customHeader": ""
+                    "buttonPosition": "bothLeft"
                 }
             }],
             "properties": {
@@ -130,23 +119,12 @@
             "menus": [{
                 "className": "org.joget.apps.userview.lib.InboxMenu",
                 "properties": {
-                    "appFilter": "process",
-                    "list-customFooter": "",
-                    "cacheAllLinks": "",
-                    "assignment-customHeader": "",
-                    "assignment-customFooter": "",
+                    "appFilter": "all",
+                    "showPopup": "false",
                     "label": "Inbox",
-                    "enableOffline": "",
-                    "customId": "",
-                    "buttonPosition": "bothLeft",
-                    "userviewCacheDuration": "",
-                    "processId": "process2",
-                    "userviewCacheScope": "",
-                    "showPopup": "",
-                    "rowCount": "",
+                    "rowCount": "false",
                     "id": "D9778CE89D2D436EBCD1795E19E4D05B",
-                    "iconIncluded": false,
-                    "list-customHeader": ""
+                    "buttonPosition": "bothLeft"
                 }
             }],
             "properties": {
@@ -166,7 +144,7 @@
             "menus": [{
                 "className": "org.joget.apps.userview.lib.InboxMenu",
                 "properties": {
-                    "appFilter": "process",
+                    "appFilter": "all",
                     "list-customFooter": "",
                     "cacheAllLinks": "",
                     "assignment-customHeader": "",

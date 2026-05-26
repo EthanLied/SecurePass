@@ -118,7 +118,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "WF1-Ride Manager Approval",
+        "name": "WF-1 Ride Manager Approval",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {

@@ -328,8 +328,8 @@
                         <TransitionRestriction>
                             <Split Type="XOR">
                                 <TransitionRefs>
-                                    <TransitionRef Id="transition2"/>
                                     <TransitionRef Id="transition3"/>
+                                    <TransitionRef Id="transition6"/>
                                 </TransitionRefs>
                             </Split>
                         </TransitionRestriction>
@@ -337,16 +337,6 @@
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="parkManagerwf2"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,724"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="informparkmanagerrejectedwf1" Name="InformParkManagerRejectedWF1">
-                    <Implementation>
-                        <Tool Id="default_application"/>
-                    </Implementation>
-                    <Performer>parkManagerwf2</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="parkManagerwf2"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="480,724"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="informparkmanagerapprovedwf1" Name="InformParkManagerApprovedWF1">
@@ -359,7 +349,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,904"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="informparkmanagerrejectedwf1_2" Name="InformParkManagerRejectedWF1">
+                <Activity Id="informparkmanagerrejectedwf22" Name="InformParkManagerRejectedWF2_2">
                     <Implementation>
                         <Tool Id="default_application"/>
                     </Implementation>
@@ -379,15 +369,19 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,336"/>
                     </ExtendedAttributes>
                 </Activity>
+                <Activity Id="informparkmanagerrejectedwf2" Name="InformParkManagerRejectedWF2">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>parkManagerwf2</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="parkManagerwf2"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="480,724"/>
+                    </ExtendedAttributes>
+                </Activity>
             </Activities>
             <Transitions>
                 <Transition From="parkmanagerformwf2" Id="transition1" To="WF2_ParkManagerApproval">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="WF2_ParkManagerApproval" Id="transition2" To="informparkmanagerrejectedwf1">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
@@ -399,14 +393,20 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="parkmanagerformwf2" Id="transition4" To="informparkmanagerrejectedwf1_2">
+                <Transition From="submitWheelchairRequestForm" Id="transition5" To="parkmanagerformwf2">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="parkmanagerformwf2" Id="transition4" To="informparkmanagerrejectedwf22">
                     <Condition Type="EXCEPTION">ParkManagerTimeout</Condition>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="submitWheelchairRequestForm" Id="transition5" To="parkmanagerformwf2">
+                <Transition From="WF2_ParkManagerApproval" Id="transition6" To="informparkmanagerrejectedwf2">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
@@ -416,8 +416,8 @@
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="customerwf2;parkManagerwf2"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=customerwf2,CONNECTING_ACTIVITY_ID=submitWheelchairRequestForm,X_OFFSET=200,Y_OFFSET=156,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf2,CONNECTING_ACTIVITY_ID=informparkmanagerrejectedwf1,X_OFFSET=680,Y_OFFSET=724,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf2,CONNECTING_ACTIVITY_ID=informparkmanagerrejectedwf1_2,X_OFFSET=680,Y_OFFSET=544,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf2,CONNECTING_ACTIVITY_ID=informparkmanagerrejectedwf2,X_OFFSET=680,Y_OFFSET=724,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf2,CONNECTING_ACTIVITY_ID=informparkmanagerrejectedwf22,X_OFFSET=680,Y_OFFSET=544,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf2,CONNECTING_ACTIVITY_ID=informparkmanagerapprovedwf1,X_OFFSET=200,Y_OFFSET=1084,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>

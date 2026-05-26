@@ -54,7 +54,7 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>parkmanagerformwf3</activityDefId>
-                  <formId>parkManagerApproval</formId>
+                  <formId>WF3_park_manager_approval</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>

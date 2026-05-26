@@ -29,17 +29,27 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "userviewCacheDuration": "",
-                        "userviewCacheScope": "",
-                        "id": "6E8DD0BC38C24F8B2F9E3800CF10ACA7",
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
                         "label": "Submit Wheelchair Usage Request",
+                        "redirectTarget": "",
                         "enableOffline": "",
-                        "iconIncluded": false,
+                        "afterSavedReloadTarget": "true",
                         "customId": "submit_wheelchair_usage",
-                        "content": "<p>p<\/p>",
-                        "style-display": "none"
+                        "messageShowAfterComplete": "",
+                        "userviewCacheDuration": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "0E2A510395224E442F1505A381D1A30C",
+                        "iconIncluded": false,
+                        "processDefId": "process2",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
                     }
                 },
                 {

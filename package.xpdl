@@ -296,7 +296,6 @@
             </DataFields>
             <Activities>
                 <Activity Id="parkmanagerformwf2" Name="ParkManagerFormWF2">
-                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>

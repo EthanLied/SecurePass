@@ -142,16 +142,6 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="180,212"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="informparkmanagerrejectedwf1" Name="InformParkManagerRejectedWF1">
-                    <Implementation>
-                        <Tool Id="default_application"/>
-                    </Implementation>
-                    <Performer>parkManagerwf1</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="parkManagerwf1"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="360,1168"/>
-                    </ExtendedAttributes>
-                </Activity>
                 <Activity Id="WF1_ParkManagerDecision">
                     <Route/>
                     <Performer>parkManagerwf1</Performer>
@@ -159,8 +149,8 @@
                         <TransitionRestriction>
                             <Split Type="XOR">
                                 <TransitionRefs>
-                                    <TransitionRef Id="transition8"/>
                                     <TransitionRef Id="transition9"/>
+                                    <TransitionRef Id="transition16"/>
                                 </TransitionRefs>
                             </Split>
                         </TransitionRestriction>
@@ -210,6 +200,16 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="460,988"/>
                     </ExtendedAttributes>
                 </Activity>
+                <Activity Id="informridemanagerrejectedwf1" Name="InformRideManagerRejectedWF1">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>parkManagerwf1</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="parkManagerwf1"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="460,1168"/>
+                    </ExtendedAttributes>
+                </Activity>
             </Activities>
             <Transitions>
                 <Transition From="ridemanagerformwf1" Id="transition3" To="WF1_RideManagerDecision">
@@ -219,12 +219,6 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="parkmanagerformwf1" Id="transition7" To="WF1_ParkManagerDecision">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="WF1_ParkManagerDecision" Id="transition8" To="informparkmanagerrejectedwf1">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
@@ -274,6 +268,12 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
+                <Transition From="WF1_ParkManagerDecision" Id="transition16" To="informridemanagerrejectedwf1">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
             </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="customerwf1;rideManagerwf1;parkManagerwf1"/>
@@ -281,7 +281,7 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=rideManagerwf1,CONNECTING_ACTIVITY_ID=informridemanagerrejected,X_OFFSET=700,Y_OFFSET=600,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=rideManagerwf1,CONNECTING_ACTIVITY_ID=informridemanagerrejected_2,X_OFFSET=700,Y_OFFSET=420,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf1,CONNECTING_ACTIVITY_ID=,X_OFFSET=180,Y_OFFSET=1836,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf1,CONNECTING_ACTIVITY_ID=informparkmanagerrejectedwf1,X_OFFSET=640,Y_OFFSET=1168,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf1,CONNECTING_ACTIVITY_ID=informridemanagerrejectedwf1,X_OFFSET=640,Y_OFFSET=1168,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf1,CONNECTING_ACTIVITY_ID=informparkmanagerapprovedwf1,X_OFFSET=180,Y_OFFSET=1528,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf1,CONNECTING_ACTIVITY_ID=informparkmanagerrejectedwf12,X_OFFSET=640,Y_OFFSET=988,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf1,CONNECTING_ACTIVITY_ID=,X_OFFSET=540,Y_OFFSET=1476,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>

@@ -32,7 +32,7 @@
                                 "mandatory": "true"
                             }
                         },
-                        "workflowVariable": "",
+                        "workflowVariable": "WF3_RideManagerApproval",
                         "label": "Decision?",
                         "id": "decision",
                         "value": "",

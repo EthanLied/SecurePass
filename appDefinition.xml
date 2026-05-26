@@ -135,6 +135,15 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>process2::informparkmanagerapprovedwf1</string>
+               <packageActivityPlugin>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>informparkmanagerapprovedwf1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.BeanShellTool&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;System.out.println(\&quot;Wnd WF2\&quot;)&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process3::WF3_RideManagerDecision</string>
                <packageActivityPlugin>
                   <processDefId>process3</processDefId>
@@ -208,20 +217,20 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process3::securityTeam</string>
-               <packageParticipant>
-                  <processDefId>process3</processDefId>
-                  <participantId>securityTeam</participantId>
-                  <type>requesterHod</type>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>process3::cutomerwf3</string>
                <packageParticipant>
                   <processDefId>process3</processDefId>
                   <participantId>cutomerwf3</participantId>
                   <type>requester</type>
                   <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::securityTeam</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>securityTeam</participantId>
+                  <type>requesterHod</type>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

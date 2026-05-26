@@ -48,6 +48,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process1::submitParkEntryRequest</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>submitParkEntryRequest</activityDefId>
+                  <formId>WF_1_Park_Entry_Form</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process3::parkmanagerformwf3</string>
                <packageActivityForm>
                   <processDefId>process3</processDefId>
@@ -188,6 +199,15 @@
                   <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;WF3_SecurityTeamApproval&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;Approved&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition14&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition13&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
                </packageActivityPlugin>
             </entry>
+            <entry>
+               <string>process1::informparkmanagerapprovedwf1</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>informparkmanagerapprovedwf1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.BeanShellTool&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;System.out.println(\&quot;End WF1!\&quot;)&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
@@ -200,14 +220,6 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process1::rideManagerwf1</string>
-               <packageParticipant>
-                  <processDefId>process1</processDefId>
-                  <participantId>rideManagerwf1</participantId>
-                  <type>requesterHod</type>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>process1::customerwf1</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
@@ -217,12 +229,12 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process3::cutomerwf3</string>
+               <string>process1::parkManagerwf1</string>
                <packageParticipant>
-                  <processDefId>process3</processDefId>
-                  <participantId>cutomerwf3</participantId>
-                  <type>requester</type>
-                  <value>runProcess</value>
+                  <processDefId>process1</processDefId>
+                  <participantId>parkManagerwf1</participantId>
+                  <type>requesterHod</type>
+                  <value></value>
                </packageParticipant>
             </entry>
             <entry>
@@ -231,6 +243,23 @@
                   <processDefId>process3</processDefId>
                   <participantId>securityTeam</participantId>
                   <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process1::rideManagerwf1</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>rideManagerwf1</participantId>
+                  <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::cutomerwf3</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>cutomerwf3</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

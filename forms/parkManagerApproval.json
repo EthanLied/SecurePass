@@ -54,7 +54,7 @@
                                 "mandatory": "true"
                             }
                         },
-                        "workflowVariable": "",
+                        "workflowVariable": "WF1_ParkManagerApproval",
                         "label": "Decision",
                         "id": "decision",
                         "value": "",

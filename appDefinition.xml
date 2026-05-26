@@ -74,6 +74,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>parkmanagerformwf1</activityDefId>
+                  <formId>parkManagerApproval</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>

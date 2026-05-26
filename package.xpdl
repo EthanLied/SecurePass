@@ -318,7 +318,7 @@
                     </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="parkManagerwf2"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,544"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,534"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="WF2_ParkManagerApproval">
@@ -336,7 +336,7 @@
                     </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="parkManagerwf2"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,724"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,714"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="informparkmanagerapprovedwf1" Name="InformParkManagerApprovedWF1">
@@ -346,7 +346,7 @@
                     <Performer>parkManagerwf2</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="parkManagerwf2"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,904"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,894"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="informparkmanagerrejectedwf22" Name="InformParkManagerRejectedWF2_2">
@@ -356,7 +356,7 @@
                     <Performer>parkManagerwf2</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="parkManagerwf2"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="480,544"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="480,534"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="submitWheelchairRequestForm" Name="Submit Wheelchair Request Form">
@@ -366,7 +366,7 @@
                     <Performer>customerwf2</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="customerwf2"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,336"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="200,326"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="informparkmanagerrejectedwf2" Name="InformParkManagerRejectedWF2">

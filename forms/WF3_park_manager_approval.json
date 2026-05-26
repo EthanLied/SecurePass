@@ -3,6 +3,28 @@
         "elements": [{
             "elements": [
                 {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "parentSubFormId": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "",
+                        "formDefId": "WF_3_Company_Booking_Form",
+                        "subFormParentId": "",
+                        "id": "field3",
+                        "label": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.Radio",
                     "properties": {
                         "fullWidth": "",
@@ -70,7 +92,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Park Manager Approval WF 3",
+            "label": "Park Manager Approval Form WF3",
             "reverse": "",
             "storeBinder": {
                 "className": "",
@@ -84,7 +106,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "park_manager_approval_wf_3",
+            "id": "park_manager_approval_form_wf3",
             "join": "",
             "readonlyLabel": ""
         }

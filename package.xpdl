@@ -55,6 +55,7 @@
             </DataFields>
             <Activities>
                 <Activity Id="ridemanagerformwf1" Name="RideManagerFormWF1">
+                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>
@@ -97,6 +98,7 @@
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="parkmanagerformwf1" Name="ParkManagerFormWF1">
+                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>
@@ -296,6 +298,7 @@
             </DataFields>
             <Activities>
                 <Activity Id="parkmanagerformwf2" Name="ParkManagerFormWF2">
+                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>

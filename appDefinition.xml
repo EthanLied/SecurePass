@@ -201,10 +201,10 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>process3::informsecurityteamrejected2_2_2</string>
+               <string>process3::informsecurityteamapproved</string>
                <packageActivityPlugin>
                   <processDefId>process3</processDefId>
-                  <activityDefId>informsecurityteamrejected2_2_2</activityDefId>
+                  <activityDefId>informsecurityteamapproved</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;ethanjy5428@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Security Team Approved&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Congrats! The security team has approved your form for a company booking!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%C7Q9/vgKuFbmBdFC/pjWJgY1oAGZT+ADUDHSq1iVmJQ=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%C7Q9/vgKuFbmBdFC/pjWJgY1oAGZT+ADUDHSq1iVmJQ=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
                </packageActivityPlugin>

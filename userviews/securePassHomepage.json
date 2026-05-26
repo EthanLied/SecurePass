@@ -102,7 +102,6 @@
                 "comment": "",
                 "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
                 "label": "<i class=\"fa fa-home\"><\/i> Customer Home",
-                "permissionDeny": "",
                 "iconIncluded": true
             }
         },
@@ -124,7 +123,7 @@
                 }
             }],
             "properties": {
-                "hide": "yes",
+                "hide": "",
                 "permission_rules": {
                     "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
                     "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
@@ -136,7 +135,6 @@
                 "comment": "",
                 "label": "Security Team Home",
                 "id": "category-53DF04999C6544C23394611E9B974326",
-                "permissionDeny": "",
                 "iconIncluded": false
             }
         },
@@ -158,7 +156,7 @@
                 }
             }],
             "properties": {
-                "hide": "yes",
+                "hide": "",
                 "permission_rules": {
                     "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
                     "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
@@ -170,7 +168,6 @@
                 "comment": "",
                 "label": "Ride Manager Home",
                 "id": "category-957D5C424E334385F26FB7FF5FBC4350",
-                "permissionDeny": "",
                 "iconIncluded": false
             }
         },
@@ -226,7 +223,7 @@
                 }
             ],
             "properties": {
-                "hide": "yes",
+                "hide": "",
                 "permission_rules": {
                     "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
                     "d74055e9-40d7-5e69-03d7-ff7707eb4487": {}
@@ -238,7 +235,6 @@
                 "comment": "",
                 "label": "Park Manager Home",
                 "id": "category-B5EDF51D96974987F241A0F2692B0EA3",
-                "permissionDeny": "",
                 "iconIncluded": false
             }
         }

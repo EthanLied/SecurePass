@@ -387,7 +387,8 @@
                <packageParticipant>
                   <processDefId>process3</processDefId>
                   <participantId>securityTeam</participantId>
-                  <type>requesterHod</type>
+                  <type>user</type>
+                  <value>cat</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -395,7 +396,8 @@
                <packageParticipant>
                   <processDefId>process1</processDefId>
                   <participantId>rideManagerwf1</participantId>
-                  <type>requesterHod</type>
+                  <type>user</type>
+                  <value>clark</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -404,7 +406,7 @@
                   <processDefId>process3</processDefId>
                   <participantId>rideManagerwf3</participantId>
                   <type>user</type>
-                  <value>admin;cat</value>
+                  <value>clark</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -413,7 +415,7 @@
                   <processDefId>process2</processDefId>
                   <participantId>parkManagerwf2</participantId>
                   <type>user</type>
-                  <value>david</value>
+                  <value>admin</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -423,6 +425,15 @@
                   <participantId>cutomerwf3</participantId>
                   <type>requester</type>
                   <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::parkManagerwf3</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>parkManagerwf3</participantId>
+                  <type>user</type>
+                  <value>admin</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>

@@ -303,7 +303,7 @@
                         <No/>
                     </Implementation>
                     <Performer>parkManagerwf2</Performer>
-                    <Deadline Execution="SYNCHR">
+                    <Deadline Execution="ASYNCHR">
                         <DeadlineCondition>var m=new java.util.Date(); m.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(2*60000)); m;</DeadlineCondition>
                         <ExceptionName>ParkManagerTimeout</ExceptionName>
                     </Deadline>

@@ -298,13 +298,13 @@
             </DataFields>
             <Activities>
                 <Activity Id="parkManagerApprovalForm" Name="Park Manager Approval Form">
-                    <Limit>1</Limit>
+                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>
                     <Performer>parkManagerwf2</Performer>
                     <Deadline Execution="SYNCHR">
-                        <DeadlineCondition>var m=new java.util.Date(); m.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(2*60000)); m;</DeadlineCondition>
+                        <DeadlineCondition>var h=new java.util.Date(); h.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(12*3600000)); h;</DeadlineCondition>
                         <ExceptionName>ParkManagerTimeout</ExceptionName>
                     </Deadline>
                     <TransitionRestrictions>

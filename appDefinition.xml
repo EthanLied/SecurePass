@@ -39,15 +39,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process3::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::submitParkEntryRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -94,20 +85,9 @@
             <entry>
                <string>process3::parkManagerApprovalForm</string>
                <packageActivityForm>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>parkManagerApprovalForm</activityDefId>
-                  <formId>WF3_park_manager_approval</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process3::submitCompanyBookingForm</string>
-               <packageActivityForm>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>submitCompanyBookingForm</activityDefId>
-                  <formId>WF_3_Company_Booking_Form</formId>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>submitWheelchairRequestForm</activityDefId>
+                  <formId>WF_2_Wheelchair_Request_Form</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -167,10 +147,10 @@
             <entry>
                <string>process3::informsecurityteamrejected</string>
                <packageActivityPlugin>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>informsecurityteamrejected</activityDefId>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>informparkmanagerapprovedwf2</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;ethanjy5428@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Security Team Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the security team has rejected your form for a company booking!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%Aee41twdSGweTCB23iJEn1bqBfmDbnVwyc1HuyuYEUw=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%Aee41twdSGweTCB23iJEn1bqBfmDbnVwyc1HuyuYEUw=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Wheelchair_Request.requester_email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Park Manager Approved&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Congrats! The park manager has approved your form for a wheelchair request!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%DnvKYsRL58mxnSeResZhc+9Wq/RBa9yCVeoMjCXz75s=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%DnvKYsRL58mxnSeResZhc+9Wq/RBa9yCVeoMjCXz75s=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -180,6 +160,15 @@
                   <activityDefId>informparkmanagerrejectedwf22</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Wheelchair_Request.requester_email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Park Manager Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the park manager has hit the deadline for not processing your form in time, leaving your form rejected!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%C7Q9/vgKuFbmBdFC/pjWJgY1oAGZT+ADUDHSq1iVmJQ=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%C7Q9/vgKuFbmBdFC/pjWJgY1oAGZT+ADUDHSq1iVmJQ=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>process2::informparkmanagerrejectedwf22</string>
+               <packageActivityPlugin>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>informparkmanagerrejectedwf22</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Wheelchair_Request.requester_email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Park Manager Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the park manager has hit the deadline for not processing your form in time, leaving your form rejected!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%DnvKYsRL58mxnSeResZhc+9Wq/RBa9yCVeoMjCXz75s=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%DnvKYsRL58mxnSeResZhc+9Wq/RBa9yCVeoMjCXz75s=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -291,21 +280,12 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>process3::informsecurityteamapproved</string>
+               <string>process2::informparkmanagerrejectedwf2</string>
                <packageActivityPlugin>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>informsecurityteamapproved</activityDefId>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>informparkmanagerrejectedwf2</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;ethanjy5428@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Security Team Approved&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Congrats! The security team has approved your form for a company booking!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%Aee41twdSGweTCB23iJEn1bqBfmDbnVwyc1HuyuYEUw=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%Aee41twdSGweTCB23iJEn1bqBfmDbnVwyc1HuyuYEUw=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
-               <string>process3::informridemanagerrejected2</string>
-               <packageActivityPlugin>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>informridemanagerrejected2</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;ethanjy5428@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Ride Manager Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the ride manager has hit the deadline for not processing your form in time, leaving your form rejected!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%Aee41twdSGweTCB23iJEn1bqBfmDbnVwyc1HuyuYEUw=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%Aee41twdSGweTCB23iJEn1bqBfmDbnVwyc1HuyuYEUw=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Wheelchair_Request.requester_email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Park Manager Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the park manager has rejected your form for a wheelchair request!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%DnvKYsRL58mxnSeResZhc+9Wq/RBa9yCVeoMjCXz75s=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%DnvKYsRL58mxnSeResZhc+9Wq/RBa9yCVeoMjCXz75s=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -365,6 +345,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>submitCompanyBookingRequest::securityTeam</string>
+               <packageParticipant>
+                  <processDefId>submitCompanyBookingRequest</processDefId>
+                  <participantId>securityTeam</participantId>
+                  <type>user</type>
+                  <value>cat</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process1::customerwf1</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
@@ -383,12 +372,12 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process3::securityTeam</string>
+               <string>submitCompanyBookingRequest::parkManagerwf3</string>
                <packageParticipant>
-                  <processDefId>process3</processDefId>
-                  <participantId>securityTeam</participantId>
+                  <processDefId>submitCompanyBookingRequest</processDefId>
+                  <participantId>parkManagerwf3</participantId>
                   <type>user</type>
-                  <value>cat</value>
+                  <value>admin</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -401,7 +390,7 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process3::rideManagerwf3</string>
+               <string>process2::parkManagerwf2</string>
                <packageParticipant>
                   <processDefId>process3</processDefId>
                   <participantId>rideManagerwf3</participantId>

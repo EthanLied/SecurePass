@@ -65,7 +65,7 @@
                   <activityDefId>parkmanagerformwf3</activityDefId>
                   <formId>WF3_park_manager_approval</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
@@ -395,6 +395,24 @@
                   <processDefId>process1</processDefId>
                   <participantId>rideManagerwf1</participantId>
                   <type>requesterHod</type>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::rideManagerwf3</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
+                  <participantId>rideManagerwf3</participantId>
+                  <type>user</type>
+                  <value>admin;cat</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process2::parkManagerwf2</string>
+               <packageParticipant>
+                  <processDefId>process2</processDefId>
+                  <participantId>parkManagerwf2</participantId>
+                  <type>user</type>
+                  <value>david</value>
                </packageParticipant>
             </entry>
             <entry>

@@ -97,7 +97,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="180,610"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="parkmanagerformwf1" Name="ParkManagerFormWF1">
+                <Activity Id="parkManagerApprovalForm" Name="Park Manager Approval Form">
                     <Limit>12</Limit>
                     <Implementation>
                         <No/>
@@ -111,8 +111,8 @@
                         <TransitionRestriction>
                             <Split Type="XOR">
                                 <TransitionRefs>
-                                    <TransitionRef Id="transition7"/>
                                     <TransitionRef Id="transition12"/>
+                                    <TransitionRef Id="transition17"/>
                                 </TransitionRefs>
                             </Split>
                         </TransitionRestriction>
@@ -212,32 +212,13 @@
                 </Activity>
             </Activities>
             <Transitions>
-                <Transition From="parkmanagerformwf1" Id="transition7" To="WF1_ParkManagerDecision">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
                 <Transition From="WF1_RideManagerDecision" Id="transition11" To="informridemanagerrejected">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="parkmanagerformwf1" Id="transition12" To="informparkmanagerrejectedwf12">
-                    <Condition Type="EXCEPTION">ParkManagerTimeout</Condition>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
                 <Transition From="WF1_ParkManagerDecision" Id="transition16" To="informridemanagerrejectedwf1">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="informridemanagerapprovedwf1" Id="transition8" To="parkmanagerformwf1">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
@@ -269,6 +250,25 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="rideManagerApprovalForm" Id="transition15" To="WF1_RideManagerDecision">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="informridemanagerapprovedwf1" Id="transition8" To="parkManagerApprovalForm">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="parkManagerApprovalForm" Id="transition12" To="informparkmanagerrejectedwf12">
+                    <Condition Type="EXCEPTION">ParkManagerTimeout</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="parkManagerApprovalForm" Id="transition17" To="WF1_ParkManagerDecision">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>

@@ -378,7 +378,8 @@
                <packageParticipant>
                   <processDefId>process1</processDefId>
                   <participantId>parkManagerwf1</participantId>
-                  <type>requesterHod</type>
+                  <type>user</type>
+                  <value>admin</value>
                </packageParticipant>
             </entry>
             <entry>

@@ -60,7 +60,7 @@
                         <No/>
                     </Implementation>
                     <Performer>rideManagerwf1</Performer>
-                    <Deadline Execution="ASYNCHR">
+                    <Deadline Execution="SYNCHR">
                         <DeadlineCondition>var h=new java.util.Date(); h.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(12*3600000)); h;</DeadlineCondition>
                         <ExceptionName>RideManagerTimeout</ExceptionName>
                     </Deadline>
@@ -103,7 +103,7 @@
                         <No/>
                     </Implementation>
                     <Performer>parkManagerwf1</Performer>
-                    <Deadline Execution="ASYNCHR">
+                    <Deadline Execution="SYNCHR">
                         <DeadlineCondition>var h=new java.util.Date(); h.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(12*3600000)); h;</DeadlineCondition>
                         <ExceptionName>ParkManagerTimeout</ExceptionName>
                     </Deadline>

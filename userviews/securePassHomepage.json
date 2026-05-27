@@ -15,11 +15,11 @@
                             "0b1133ec-e05b-70d3-95a2-2e6e95dd9edd": {}
                         },
                         "keyName": "",
-                        "label": "Submit Ride Entry Request",
+                        "label": "Submit Park Entry Request",
                         "redirectTarget": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
-                        "customId": "submit_ride_entry_request",
+                        "customId": "submit_park_entry_request",
                         "messageShowAfterComplete": "",
                         "userviewCacheDuration": "",
                         "showInPopupDialog": "",
@@ -28,7 +28,7 @@
                         "runProcessSubmitLabel": "",
                         "id": "3A0569BFD1454C325755D68650281ADC",
                         "iconIncluded": false,
-                        "processDefId": "process1",
+                        "processDefId": "submitParkEntryRequest",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
                     }

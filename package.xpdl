@@ -421,7 +421,7 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=parkManagerwf2,CONNECTING_ACTIVITY_ID=informparkmanagerapprovedwf2,X_OFFSET=200,Y_OFFSET=1084,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
-        <WorkflowProcess Id="process3" Name="Process 3">
+        <WorkflowProcess Id="submitCompanyBookingRequest" Name="Submit Company Booking Request">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="WF3_SecurityTeamApproval" IsArray="FALSE">

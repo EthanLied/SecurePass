@@ -9,6 +9,17 @@
          <name>Secure Pass</name>
          <packageActivityFormMap>
             <entry>
+               <string>process4::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process4</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>submitCompanyBookingRequest::parkManagerApprovalForm</string>
                <packageActivityForm>
                   <processDefId>submitCompanyBookingRequest</processDefId>
@@ -20,12 +31,30 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process4::activity2</string>
+               <packageActivityForm>
+                  <processDefId>process4</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>submitParkEntryRequest::rideManagerApprovalForm</string>
                <packageActivityForm>
                   <processDefId>submitParkEntryRequest</processDefId>
                   <activityDefId>rideManagerApprovalForm</activityDefId>
                   <formId>rideManagerApproval</formId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process4::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process4</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -397,6 +426,15 @@
                   <participantId>parkManagerwf3</participantId>
                   <type>user</type>
                   <value>admin</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process4::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process4</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>

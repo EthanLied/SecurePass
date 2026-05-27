@@ -496,7 +496,6 @@
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="rideManagerApprovalForm" Name="Ride Manager Approval Form">
-                    <Limit>12</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>

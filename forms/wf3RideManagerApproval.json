@@ -92,7 +92,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Ride Manager Approval Form WF3",
+            "label": "Ride Manager Approval Form",
             "reverse": "",
             "storeBinder": {
                 "className": "",
@@ -106,7 +106,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "ride_manager_approval_form_wf3",
+            "id": "ride_manager_approval_form",
             "join": "",
             "readonlyLabel": ""
         }

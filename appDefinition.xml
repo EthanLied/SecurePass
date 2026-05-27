@@ -94,6 +94,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>submitWheelchairUsageRequest::parkManagerApprovalForm</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>parkManagerApprovalForm</activityDefId>
+                  <formId>WF2_park_manager_approval</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process3::parkManagerApprovalForm</string>
                <packageActivityForm>
                   <processDefId>process3</processDefId>
@@ -120,17 +131,6 @@
                <packageActivityForm>
                   <processDefId>submitWheelchairUsageRequest</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>submitWheelchairUsageRequest::parkmanagerformwf2</string>
-               <packageActivityForm>
-                  <processDefId>submitWheelchairUsageRequest</processDefId>
-                  <activityDefId>parkmanagerformwf2</activityDefId>
-                  <formId>WF2_park_manager_approval</formId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>

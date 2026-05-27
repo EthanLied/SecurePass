@@ -92,7 +92,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Park Manager Approval Form WF1",
+            "label": "Park Manager Approval Form",
             "reverse": "",
             "storeBinder": {
                 "className": "",
@@ -106,7 +106,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "park_manager_approval_form_wf1",
+            "id": "park_manager_approval_form",
             "join": "",
             "readonlyLabel": ""
         }

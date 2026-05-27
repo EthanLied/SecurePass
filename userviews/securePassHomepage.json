@@ -109,8 +109,13 @@
                         "permissionDeny": ""
                     },
                     "0b1133ec-e05b-70d3-95a2-2e6e95dd9edd": {
-                        "hide": "yes",
-                        "permissionDeny": ""
+                        "hide": "",
+                        "permissionComment": "",
+                        "permission": {
+                            "className": "org.joget.plugin.enterprise.AnonymousUserviewPermission",
+                            "properties": {}
+                        },
+                        "permissionDeny": "true"
                     }
                 },
                 "permission": {
@@ -170,8 +175,16 @@
                     },
                     "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
                     "0b1133ec-e05b-70d3-95a2-2e6e95dd9edd": {
-                        "hide": "yes",
-                        "permissionDeny": ""
+                        "hide": "",
+                        "permissionComment": "",
+                        "permission": {
+                            "className": "org.joget.apps.userview.lib.UserPermission",
+                            "properties": {
+                                "allowedUsernames": "cat",
+                                "orgId": "ORG-001"
+                            }
+                        },
+                        "permissionDeny": "true"
                     }
                 },
                 "permission": {
@@ -293,8 +306,16 @@
                         "permissionDeny": ""
                     },
                     "0b1133ec-e05b-70d3-95a2-2e6e95dd9edd": {
-                        "hide": "yes",
-                        "permissionDeny": ""
+                        "hide": "",
+                        "permissionComment": "",
+                        "permission": {
+                            "className": "org.joget.apps.userview.lib.UserPermission",
+                            "properties": {
+                                "allowedUsernames": "admin",
+                                "orgId": "ORG-001"
+                            }
+                        },
+                        "permissionDeny": "true"
                     }
                 },
                 "permission": {

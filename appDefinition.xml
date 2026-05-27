@@ -394,7 +394,8 @@
                <packageParticipant>
                   <processDefId>process1</processDefId>
                   <participantId>rideManagerwf1</participantId>
-                  <type>requesterHod</type>
+                  <type>user</type>
+                  <value>clark</value>
                </packageParticipant>
             </entry>
             <entry>

@@ -452,7 +452,7 @@
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="securityTeamApprovalForm" Name="Security Team Approval Form">
-                    <Limit>2</Limit>
+                    <Limit>1</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>

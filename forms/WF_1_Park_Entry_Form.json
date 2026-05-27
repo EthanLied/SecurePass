@@ -70,7 +70,7 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
-                                "type": "",
+                                "type": "numeric",
                                 "message": "",
                                 "mandatory": "true"
                             }

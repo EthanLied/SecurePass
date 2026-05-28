@@ -8,22 +8,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "requester_full_name",
-            "id": "column_4",
-            "label": "Requester Full Name",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "requester_email",
-            "id": "column_7",
-            "label": "Requester Email",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "name": "dateCreated",
             "id": "column_2",
             "label": "Date Created",
@@ -32,9 +16,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "justification_to_use",
-            "id": "column_6",
-            "label": "Justification to use wheelchair",
+            "name": "decision",
+            "id": "column_8",
+            "label": "Decision",
             "sortable": "false"
         }
     ],
@@ -48,7 +32,7 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "WF_2_Wheelchair_Request_Form",
+            "formDefId": "WF2_park_manager_approval",
             "extraCondition": "",
             "cacheRowCount": ""
         }

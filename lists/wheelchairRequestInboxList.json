@@ -8,10 +8,48 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "WF2_park_manager.decision",
-            "id": "column_4",
-            "label": "WF2_park_manager.decision",
-            "sortable": "false"
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Requester Full Name",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "requester_full_name",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_6",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Requester Email",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "requester_email",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_7",
+            "alignment": ""
         },
         {
             "filterable": true,
@@ -19,15 +57,54 @@
             "name": "justification_to_use",
             "id": "column_3",
             "label": "Justification to use wheelchair",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "createdBy",
-            "id": "column_2",
-            "label": "Created By",
-            "sortable": "false"
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Park Manager Decision",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "WF2_park_manager.decision",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_4",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Date Created",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "dateCreated",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_5",
+            "alignment": ""
         }
     ],
     "pageSize": "0",

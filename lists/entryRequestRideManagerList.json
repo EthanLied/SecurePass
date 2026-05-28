@@ -8,80 +8,10 @@
         {
             "filterable": true,
             "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Requester Full Name",
-            "sortable": "true",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "requester_full_name",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_6",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Requester Email",
-            "sortable": "true",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "requester_email",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_7",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "justification_to_use",
-            "id": "column_3",
-            "label": "Justification to use wheelchair",
-            "sortable": "false",
-            "datalist_type": "column"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Park Manager Decision",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "WF2_park_manager.decision",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_4",
-            "alignment": ""
+            "name": "createdBy",
+            "id": "column_0",
+            "label": "Created By",
+            "sortable": "false"
         },
         {
             "filterable": true,
@@ -119,11 +49,11 @@
         "properties": {
             "joins": [{
                 "joinFieldId": "id",
-                "tableName": "WF2_park_manager",
-                "fieldId": "WF2_park_manager.id"
+                "tableName": "WF1_ride_manager",
+                "fieldId": "WF1_ride_manager.id"
             }],
             "aggregateField": [],
-            "formDefId": "WF_2_Wheelchair_Request_Form",
+            "formDefId": "WF_1_Park_Entry_Form",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],

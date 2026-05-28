@@ -348,7 +348,7 @@
                         "siteKey": "6Lf-KwAtAAAAAD5LEocRnB5zXVaflXncIHY5i__o",
                         "secretKey": "6Lf-KwAtAAAAACMryKG8r8-GMQXOwHWbxpx4oTlq",
                         "customError": "Captcha Failed, please try again!",
-                        "id": "recaptcha",
+                        "id": "Recaptcha",
                         "debugMode": ""
                     }
                 }

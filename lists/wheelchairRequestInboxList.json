@@ -3,23 +3,7 @@
         "className": "",
         "properties": {}
     },
-    "rowActions": [{
-        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-        "id": "rowAction_0",
-        "properties": {
-            "hrefColumn": "id",
-            "hrefParam": "id",
-            "rules": [],
-            "label": "Open Form",
-            "href": "wheelchairRequestManagerCRUD",
-            "confirmation": "",
-            "link-css-display-type": "btn btn-sm btn-primary",
-            "datalist_type": "row_action",
-            "iconIncluded": false,
-            "target": "popup",
-            "header_label": ""
-        }
-    }],
+    "rowActions": [],
     "columns": [
         {
             "filterable": true,

@@ -105,11 +105,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "WF3_ride_manager.decision",
+            "label": "Park Manager Decission",
             "sortable": "true",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "WF3_ride_manager.decision",
+            "name": "WF3_park_manager.decision",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -117,7 +117,7 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_2",
+            "id": "column_3",
             "alignment": ""
         },
         {
@@ -156,8 +156,8 @@
         "properties": {
             "joins": [{
                 "joinFieldId": "id",
-                "tableName": "WF3_ride_manager",
-                "fieldId": "WF3_ride_manager.id"
+                "tableName": "WF3_park_manager",
+                "fieldId": "WF3_park_manager.id"
             }],
             "aggregateField": [],
             "formDefId": "WF_3_Company_Booking_Form",

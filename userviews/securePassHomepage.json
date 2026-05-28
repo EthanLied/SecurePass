@@ -305,7 +305,7 @@
                         "edit-customFooter": "",
                         "add-afterSavedReloadTarget": "true",
                         "keyName": "",
-                        "label": "CRUD",
+                        "label": "Wheelchair Form List",
                         "list-newLinkTarget": "",
                         "add-customHeader": "",
                         "edit-lastButtonLabel": "",
@@ -325,29 +325,6 @@
                         "edit-backButtonLabel": "",
                         "list-editLinkTarget": "",
                         "list-customHeader": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "permission_rules": {"4884d721-1eea-e6a9-0e19-b74186895774": {}},
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "Wheelchair Form List",
-                        "enableOffline": "",
-                        "customId": "",
-                        "buttonPosition": "bothLeft",
-                        "datalistId": "wheelchairRequestInboxList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "218F22805EA14F968D66EF66E8634ADA",
-                        "iconIncluded": false
                     }
                 },
                 {

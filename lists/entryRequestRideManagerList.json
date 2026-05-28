@@ -8,9 +8,41 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "createdBy",
+            "name": "full_name",
             "id": "column_0",
-            "label": "Created By",
+            "label": "Full Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "email",
+            "id": "column_1",
+            "label": "Email",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "date_of_entry",
+            "id": "column_6",
+            "label": "Date of Entry",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "entry_time",
+            "id": "column_2",
+            "label": "Entry Time",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "exit_time",
+            "id": "column_3",
+            "label": "Exit Time",
             "sortable": "false"
         },
         {
@@ -21,11 +53,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Date Created",
-            "sortable": "true",
+            "label": "Ride Manager Decision",
+            "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "dateCreated",
+            "name": "WF1_ride_manager.decision",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -33,8 +65,16 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_5",
+            "id": "column_4",
             "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "dateCreated",
+            "id": "column_5",
+            "label": "Date Created",
+            "sortable": "false"
         }
     ],
     "pageSize": "0",

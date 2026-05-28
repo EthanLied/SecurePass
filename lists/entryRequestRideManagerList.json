@@ -8,42 +8,117 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "full_name",
-            "id": "column_0",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Full Name",
-            "sortable": "false"
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "full_name",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_0",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "email",
-            "id": "column_1",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Email",
-            "sortable": "false"
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "email",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "date_of_entry",
-            "id": "column_6",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Date of Entry",
-            "sortable": "false"
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "date_of_entry",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_6",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "entry_time",
-            "id": "column_2",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Entry Time",
-            "sortable": "false"
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "entry_time",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_2",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "exit_time",
-            "id": "column_3",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Exit Time",
-            "sortable": "false"
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "exit_time",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
         },
         {
             "filterable": true,
@@ -54,7 +129,7 @@
                 "properties": {}
             },
             "label": "Ride Manager Decision",
-            "sortable": "false",
+            "sortable": "true",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "WF1_ride_manager.decision",
@@ -71,10 +146,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "dateCreated",
-            "id": "column_5",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Date Created",
-            "sortable": "false"
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "dateCreated",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_5",
+            "alignment": ""
         }
     ],
     "pageSize": "0",

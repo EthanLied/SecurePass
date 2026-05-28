@@ -1,18 +1,58 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "Wheelchair Request Inbox List",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "wheelchairRequestInboxList",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "requester_full_name",
+            "id": "column_4",
+            "label": "Requester Full Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "requester_email",
+            "id": "column_7",
+            "label": "Requester Email",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "dateCreated",
+            "id": "column_2",
+            "label": "Date Created",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "justification_to_use",
+            "id": "column_6",
+            "label": "Justification to use wheelchair",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Wheelchair Request Inbox List",
+    "id": "wheelchairRequestInboxList",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "WF_2_Wheelchair_Request_Form",
+            "extraCondition": "",
+            "cacheRowCount": ""
+        }
+    },
+    "actions": [],
     "order": ""
 }

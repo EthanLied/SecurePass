@@ -347,7 +347,7 @@
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "add-customFooter": "",
-                        "addFormId": "WF2_park_manager_approval",
+                        "addFormId": "",
                         "edit-allowRecordTraveling": "",
                         "rowCount": "",
                         "id": "F89ED643C64B40788C6E2E6EA9A61F16",

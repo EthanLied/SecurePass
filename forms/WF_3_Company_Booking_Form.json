@@ -279,6 +279,16 @@
                         "value": "",
                         "readonlyLabel": ""
                     }
+                },
+                {
+                    "className": "org.joget.marketplace.InvisibleRecaptchaField",
+                    "properties": {
+                        "siteKey": "6Lf-KwAtAAAAAD5LEocRnB5zXVaflXncIHY5i__o",
+                        "secretKey": "6Lf-KwAtAAAAACMryKG8r8-GMQXOwHWbxpx4oTlq",
+                        "customError": "",
+                        "id": "Recaptcha",
+                        "debugMode": ""
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",

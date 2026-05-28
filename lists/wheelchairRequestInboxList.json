@@ -8,17 +8,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "dateCreated",
-            "id": "column_2",
-            "label": "Date Created",
+            "name": "WF2_park_manager.decision",
+            "id": "column_4",
+            "label": "WF2_park_manager.decision",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "decision",
-            "id": "column_8",
-            "label": "Decision",
+            "name": "justification_to_use",
+            "id": "column_3",
+            "label": "Justification to use wheelchair",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "createdBy",
+            "id": "column_2",
+            "label": "Created By",
             "sortable": "false"
         }
     ],
@@ -30,11 +38,21 @@
     "name": "Wheelchair Request Inbox List",
     "id": "wheelchairRequestInboxList",
     "binder": {
-        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
-            "formDefId": "WF2_park_manager_approval",
+            "joins": [{
+                "joinFieldId": "id",
+                "tableName": "WF2_park_manager",
+                "fieldId": "WF2_park_manager.id"
+            }],
+            "aggregateField": [],
+            "formDefId": "WF_2_Wheelchair_Request_Form",
+            "customSelectionValue": "",
             "extraCondition": "",
-            "cacheRowCount": ""
+            "filters": [],
+            "groupBy": "",
+            "cacheRowCount": "",
+            "functionColumns": []
         }
     },
     "actions": [],

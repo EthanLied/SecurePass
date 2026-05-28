@@ -105,11 +105,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Security Manager",
+            "label": "WF3_ride_manager.decision",
             "sortable": "true",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "WF3_security_team.decision",
+            "name": "WF3_ride_manager.decision",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -156,8 +156,8 @@
         "properties": {
             "joins": [{
                 "joinFieldId": "id",
-                "tableName": "WF3_security_team",
-                "fieldId": "WF3_security_team.id"
+                "tableName": "WF3_ride_manager",
+                "fieldId": "WF3_ride_manager.id"
             }],
             "aggregateField": [],
             "formDefId": "WF_3_Company_Booking_Form",

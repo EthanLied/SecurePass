@@ -105,7 +105,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "WF3_ride_manager.decision",
+            "label": "Ride Manager Decission",
             "sortable": "true",
             "datalist_type": "column",
             "exclude_export": "",

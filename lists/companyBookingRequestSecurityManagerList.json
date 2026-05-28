@@ -13,11 +13,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Full Name",
+            "label": "Booker's full name",
             "sortable": "true",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "full_name",
+            "name": "booker_s_full_name",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -25,7 +25,7 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_6",
+            "id": "column_0",
             "alignment": ""
         },
         {
@@ -36,11 +36,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Email",
+            "label": "Booker's email",
             "sortable": "true",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "email",
+            "name": "booker_s_email",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -48,7 +48,7 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_7",
+            "id": "column_1",
             "alignment": ""
         },
         {
@@ -105,11 +105,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Exit Time",
+            "label": "Security Manager",
             "sortable": "true",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "exit_time",
+            "name": "WF3_security_team.decision",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -117,30 +117,7 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_10",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Park Manager Decision",
-            "sortable": "true",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "WF1_park_manager.decision",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_11",
+            "id": "column_2",
             "alignment": ""
         },
         {
@@ -179,11 +156,11 @@
         "properties": {
             "joins": [{
                 "joinFieldId": "id",
-                "tableName": "WF1_park_manager",
-                "fieldId": "WF1_park_manager.id"
+                "tableName": "WF3_security_team",
+                "fieldId": "WF3_security_team.id"
             }],
             "aggregateField": [],
-            "formDefId": "WF_1_Park_Entry_Form",
+            "formDefId": "WF_3_Company_Booking_Form",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],

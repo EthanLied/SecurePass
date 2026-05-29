@@ -438,18 +438,23 @@
                 {
                     "className": "org.joget.plugin.enterprise.DashboardMenu",
                     "properties": {
-                        "mode": "plugins",
+                        "defaultPortletWidth": "1",
                         "customHeader": "",
-                        "userviewCacheDuration": "",
+                        "autoHeight": "",
                         "defaultPortletHeight": "250",
-                        "userviewCacheScope": "",
+                        "resizable": "",
                         "plugins": [],
                         "customFooter": "",
                         "label": "Dashboard",
-                        "id": "E042DFD790F44FF16FCFDE934C2262D0",
                         "enableOffline": "",
+                        "customId": "",
+                        "mode": "",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": "",
+                        "userviewId": "securePassHomepage",
+                        "id": "E042DFD790F44FF16FCFDE934C2262D0",
                         "iconIncluded": false,
-                        "customId": ""
+                        "customPortletSetting": []
                     }
                 },
                 {

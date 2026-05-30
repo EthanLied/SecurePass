@@ -459,7 +459,6 @@
                   <processDefId>process1</processDefId>
                   <participantId>parkManagerwf1</participantId>
                   <type>requesterHod</type>
-                  <value></value>
                </packageParticipant>
             </entry>
             <entry>
@@ -468,7 +467,6 @@
                   <processDefId>process3</processDefId>
                   <participantId>securityTeam</participantId>
                   <type>requesterHod</type>
-                  <value></value>
                </packageParticipant>
             </entry>
             <entry>
@@ -477,7 +475,6 @@
                   <processDefId>process1</processDefId>
                   <participantId>rideManagerwf1</participantId>
                   <type>requesterHod</type>
-                  <value></value>
                </packageParticipant>
             </entry>
             <entry>

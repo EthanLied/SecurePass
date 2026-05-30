@@ -24,7 +24,7 @@
                 "id": "13AA061BF6BD4E205BB5419B507785FF",
                 "title": "Total Inbox Items",
                 "iconIncluded": true,
-                "value": "#uiListCount.D9778CE89D2D436EBCD1795E19E4D05B#",
+                "value": "#loggedInUser.runningCount#",
                 "customId": ""
             }
         },

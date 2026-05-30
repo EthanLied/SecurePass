@@ -24,7 +24,7 @@
                 "id": "13AA061BF6BD4E205BB5419B507785FF",
                 "title": "Total Inbox Items",
                 "iconIncluded": true,
-                "value": "#uiListCount.securePassHomepage.F0B06E9185D641CF0F6FD8910FD124EC#",
+                "value": "#loggedInUser.runningCount#",
                 "customId": ""
             }
         },

@@ -308,8 +308,8 @@
                 {
                     "className": "org.joget.marketplace.InvisibleRecaptchaField",
                     "properties": {
-                        "siteKey": "6Lf-KwAtAAAAAD5LEocRnB5zXVaflXncIHY5i__o",
-                        "secretKey": "6Lf-KwAtAAAAACMryKG8r8-GMQXOwHWbxpx4oTlq",
+                        "siteKey": "6Ld1EQQtAAAAAAFb-v0RPY3c0UhSmPPr3FhPPhT0",
+                        "secretKey": "6Ld1EQQtAAAAAE5uPrKOFEHGjql3J05IoHWMJo5o",
                         "customError": "",
                         "id": "Recaptcha",
                         "debugMode": ""

@@ -65,7 +65,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "runProcessDirectly": "Yes",
+                        "runProcessDirectly": "",
                         "fieldPassoverMethod": "append",
                         "keyName": "",
                         "label": "Submit Company Booking Request",

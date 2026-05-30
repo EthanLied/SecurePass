@@ -169,6 +169,15 @@
                     }
                 },
                 {
+                    "className": "org.joget.marketplace.GridSearchFilterElement",
+                    "properties": {
+                        "fieldPosition": "",
+                        "searchAllColumns": "true",
+                        "placeholder": "Search...",
+                        "id": "field11"
+                    }
+                },
+                {
                     "className": "org.joget.plugin.enterprise.FormGrid",
                     "properties": {
                         "validateMaxRow": "",

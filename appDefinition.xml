@@ -9,68 +9,6 @@
          <name>Secure Pass</name>
          <packageActivityFormMap>
             <entry>
-               <string>submitCompanyBookingRequest::wheelchairUsageApprovalForm3</string>
-               <packageActivityForm>
-                  <processDefId>submitCompanyBookingRequest</processDefId>
-                  <activityDefId>wheelchairUsageApprovalForm3</activityDefId>
-                  <formId>WF3_park_manager_approval</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>submitWheelchairUsageRequest::submitWheelchairRequestForm</string>
-               <packageActivityForm>
-                  <processDefId>submitWheelchairUsageRequest</processDefId>
-                  <activityDefId>submitWheelchairRequestForm</activityDefId>
-                  <formId>WF_2_Wheelchair_Request_Form</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>submitCompanyBookingRequest::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>submitCompanyBookingRequest</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>submitWheelchairUsageRequest::wheelchairApprovalForm</string>
-               <packageActivityForm>
-                  <processDefId>submitWheelchairUsageRequest</processDefId>
-                  <activityDefId>wheelchairApprovalForm</activityDefId>
-                  <formId>WF2_park_manager_approval</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>submitWheelchairUsageRequest::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>submitWheelchairUsageRequest</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>submitParkEntryRequest::submitParkEntryRequest</string>
-               <packageActivityForm>
-                  <processDefId>submitParkEntryRequest</processDefId>
-                  <activityDefId>submitParkEntryRequest</activityDefId>
-                  <formId>WF_1_Park_Entry_Form</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>submitParkEntryRequest::parkEntryApprovalForm</string>
                <packageActivityForm>
                   <processDefId>submitParkEntryRequest</processDefId>
@@ -87,6 +25,17 @@
                   <processDefId>submitCompanyBookingRequest</processDefId>
                   <activityDefId>submitCompanyBookingForm</activityDefId>
                   <formId>WF_3_Company_Booking_Form</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>submitCompanyBookingRequest::wheelchairUsageApprovalForm3</string>
+               <packageActivityForm>
+                  <processDefId>submitCompanyBookingRequest</processDefId>
+                  <activityDefId>wheelchairUsageApprovalForm3</activityDefId>
+                  <formId>WF3_park_manager_approval</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -113,6 +62,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>submitWheelchairUsageRequest::submitWheelchairRequestForm</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>submitWheelchairRequestForm</activityDefId>
+                  <formId>WF_2_Wheelchair_Request_Form</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>submitCompanyBookingRequest::wheelchairUsageApprovalForm2</string>
                <packageActivityForm>
                   <processDefId>submitCompanyBookingRequest</processDefId>
@@ -124,11 +84,51 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>submitCompanyBookingRequest::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>submitCompanyBookingRequest</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>submitWheelchairUsageRequest::wheelchairApprovalForm</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>wheelchairApprovalForm</activityDefId>
+                  <formId>WF2_park_manager_approval</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>submitParkEntryRequest::parkManagerApprovalForm</string>
                <packageActivityForm>
                   <processDefId>submitParkEntryRequest</processDefId>
                   <activityDefId>parkManagerApprovalForm</activityDefId>
                   <formId>rideManagerApproval</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>submitWheelchairUsageRequest::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>submitParkEntryRequest::submitParkEntryRequest</string>
+               <packageActivityForm>
+                  <processDefId>submitParkEntryRequest</processDefId>
+                  <activityDefId>submitParkEntryRequest</activityDefId>
+                  <formId>WF_1_Park_Entry_Form</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>

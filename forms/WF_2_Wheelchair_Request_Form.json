@@ -349,7 +349,7 @@
                         "secretKey": "6Ld1EQQtAAAAAE5uPrKOFEHGjql3J05IoHWMJo5o",
                         "customError": "",
                         "id": "Captcha",
-                        "debugMode": ""
+                        "debugMode": "enabled"
                     }
                 }
             ],

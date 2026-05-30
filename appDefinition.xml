@@ -209,15 +209,6 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>submitParkEntryRequest::informridemanagerrejected_2_2</string>
-               <packageActivityPlugin>
-                  <processDefId>submitParkEntryRequest</processDefId>
-                  <activityDefId>informridemanagerrejected_2_2</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Park_Entry_Form.email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Ride Manager Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the ride manager has hit the deadline for not processing your form in time, leaving your form rejected!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%76UVfKmdn2IKYSxHZd75Q0kt61xt6TsfIxMkZYjqUHI=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%76UVfKmdn2IKYSxHZd75Q0kt61xt6TsfIxMkZYjqUHI=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>submitWheelchairUsageRequest::informparkmanagerapprovedwf2</string>
                <packageActivityPlugin>
                   <processDefId>submitWheelchairUsageRequest</processDefId>
@@ -269,6 +260,15 @@
                   <activityDefId>informRequestSubmitted</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Wheelchair_Request.requester_email##form.Wheelchair_Request.requester_email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Submission of Wheelchair Request&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Hi! We have received your wheelchair request submission with the following details below and is now pending review by staff members. \n\nFull Name: #form.Wheelchair_Request.requester_full_name#\n\nPhone Number: #form.Wheelchair_Request.requester_phone_number_with#\n\nEmail: #form.Wheelchair_Request.requester_email#\n\nWheelchair User Full Name: #form.Wheelchair_Request.wheelchair_user_full_name#\n\nWheelchair User Phone Number: #form.Wheelchair_Request.wheelchair_user_phone_number#\n\nWheelchair User Age:\n#form.Wheelchair_Request.wheelchair_user_age#\n\nWheelchair User Weight (KG): #form.Wheelchair_Request.wheelchair_user_weight_kg#\n\nDate of Usage: #form.Wheelchair_Request.date_of_usage#\n\nStart Usage Time: #form.Wheelchair_Request.start_usage_time#\n\nEnd Usage Time: #form.Wheelchair_Request.end_usage_time#\n\nJustification: #form.Wheelchair_Request.justification_to_use#\n\nOther Notes: #form.Wheelchair_Request.other_notes_optional#&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%COkugvnxwUzwZU0mCeHQc2lygvrNQde0ZVif4zdsFx0=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%76UVfKmdn2IKYSxHZd75Q0kt61xt6TsfIxMkZYjqUHI=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>submitParkEntryRequest::informRequestSubmitted</string>
+               <packageActivityPlugin>
+                  <processDefId>submitParkEntryRequest</processDefId>
+                  <activityDefId>informRequestSubmitted</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Park_Entry_Form.email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Ride Manager Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the ride manager has hit the deadline for not processing your form in time, leaving your form rejected!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%76UVfKmdn2IKYSxHZd75Q0kt61xt6TsfIxMkZYjqUHI=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%76UVfKmdn2IKYSxHZd75Q0kt61xt6TsfIxMkZYjqUHI=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>

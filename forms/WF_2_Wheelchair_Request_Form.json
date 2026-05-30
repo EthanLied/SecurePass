@@ -324,25 +324,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextArea",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "readonly": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "workflowVariable": "",
-                        "label": "Other notes (Optional)",
-                        "id": "other_notes_optional",
-                        "placeholder": "",
-                        "rows": "5",
-                        "cols": "20",
-                        "value": "",
-                        "readonlyLabel": ""
-                    }
-                },
-                {
                     "className": "org.joget.marketplace.VideoPlayerPlugin",
                     "properties": {
                         "permissionType": "",
@@ -365,6 +346,25 @@
                         "fileTypeMsg": "Invalid file type",
                         "id": "video_file_upload_optional",
                         "fileType": ".mp4"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Other notes (Optional)",
+                        "id": "other_notes_optional",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 }
             ],

@@ -439,13 +439,11 @@
                     "className": "org.joget.plugin.enterprise.DashboardMenu",
                     "properties": {
                         "defaultPortletWidth": "1",
-                        "style-background-color": "#FFFFFF",
                         "customHeader": "",
                         "autoHeight": "",
                         "defaultPortletHeight": "250",
                         "resizable": "",
                         "plugins": [],
-                        "style-color": "#FFFFFF",
                         "customFooter": "",
                         "label": "Dashboard",
                         "enableOffline": "",

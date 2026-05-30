@@ -386,7 +386,6 @@
                   <processDefId>submitWheelchairUsageRequest</processDefId>
                   <participantId>customerwf2</participantId>
                   <type>requester</type>
-                  <value></value>
                </packageParticipant>
             </entry>
             <entry>
@@ -404,7 +403,6 @@
                   <processDefId>submitParkEntryRequest</processDefId>
                   <participantId>customerwf1</participantId>
                   <type>requester</type>
-                  <value></value>
                </packageParticipant>
             </entry>
             <entry>

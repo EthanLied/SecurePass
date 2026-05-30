@@ -245,8 +245,8 @@
                             }
                         },
                         "workflowVariable": "",
-                        "label": "End usage time",
-                        "id": "end_usage_time",
+                        "label": "Start usage time",
+                        "id": "start_usage_time",
                         "iconIncluded": false,
                         "value": "",
                         "readonlyLabel": "",
@@ -266,8 +266,8 @@
                             }
                         },
                         "workflowVariable": "",
-                        "label": "Start usage time",
-                        "id": "start_usage_time",
+                        "label": "End usage time",
+                        "id": "end_usage_time",
                         "iconIncluded": false,
                         "value": "",
                         "readonlyLabel": "",

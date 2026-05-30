@@ -227,6 +227,15 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>submitCompanyBookingRequest::SecurityTeamDecision</string>
+               <packageActivityPlugin>
+                  <processDefId>submitCompanyBookingRequest</processDefId>
+                  <activityDefId>SecurityTeamDecision</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
+                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;WF3_SecurityTeamApproval&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;Approved&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition14&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition22&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>submitWheelchairUsageRequest::informparkmanagerrejectedwf2_2</string>
                <packageActivityPlugin>
                   <processDefId>submitWheelchairUsageRequest</processDefId>

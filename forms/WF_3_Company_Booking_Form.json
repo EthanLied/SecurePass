@@ -262,6 +262,31 @@
                     }
                 },
                 {
+                    "className": "org.joget.marketplace.VideoPlayerPlugin",
+                    "properties": {
+                        "permissionType": "",
+                        "padding": "",
+                        "stretchingMode": "auto",
+                        "maxSizeMsg": "File size limit exceeded",
+                        "configuration": "current",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "maxSize": "",
+                        "label": "Video File Upload (Optional)",
+                        "videoHeight": "600px",
+                        "videoWidth": "900px",
+                        "removeFile": "",
+                        "readonly": "",
+                        "attachment": "",
+                        "size": "",
+                        "fileTypeMsg": "Invalid file type",
+                        "id": "field11",
+                        "fileType": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",

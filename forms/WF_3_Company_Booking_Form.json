@@ -169,16 +169,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.marketplace.GridSearchFilterElement",
-                    "properties": {
-                        "fieldPosition": "right",
-                        "searchAllColumns": "true",
-                        "gridField": "Form Grid",
-                        "placeholder": "Search...",
-                        "id": "field11"
-                    }
-                },
-                {
                     "className": "org.joget.plugin.enterprise.FormGrid",
                     "properties": {
                         "validateMaxRow": "",

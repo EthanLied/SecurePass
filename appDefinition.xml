@@ -301,6 +301,15 @@
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
+               <string>submitWheelchairUsageRequest::parkManagerwf2</string>
+               <packageParticipant>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <participantId>parkManagerwf2</participantId>
+                  <type>user</type>
+                  <value>admin</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>submitCompanyBookingRequest::cutomerwf3</string>
                <packageParticipant>
                   <processDefId>submitCompanyBookingRequest</processDefId>
@@ -333,6 +342,15 @@
                   <participantId>parkManagerwf3</participantId>
                   <type>user</type>
                   <value>admin</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>submitWheelchairUsageRequest::customerwf2</string>
+               <packageParticipant>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <participantId>customerwf2</participantId>
+                  <type>requester</type>
+                  <value></value>
                </packageParticipant>
             </entry>
             <entry>

@@ -519,7 +519,7 @@
                         "assignment-customFooter": "",
                         "label": "Park Manager Inbox",
                         "enableOffline": "",
-                        "customId": "",
+                        "customId": "1234",
                         "buttonPosition": "bothLeft",
                         "userviewCacheDuration": "",
                         "processId": "process3",

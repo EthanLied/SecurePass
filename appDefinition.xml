@@ -306,7 +306,6 @@
                   <processDefId>submitCompanyBookingRequest</processDefId>
                   <participantId>cutomerwf3</participantId>
                   <type>requester</type>
-                  <value></value>
                </packageParticipant>
             </entry>
             <entry>

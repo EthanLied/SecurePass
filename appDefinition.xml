@@ -290,6 +290,15 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>submitCompanyBookingRequest::tool9</string>
+               <packageActivityPlugin>
+                  <processDefId>submitCompanyBookingRequest</processDefId>
+                  <activityDefId>tool9</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.BeanShellTool&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;import org.joget.apps.app.service.AppUtil;\nimport org.joget.commons.util.LogUtil;\n\n// 1. Get the current workflow assignment context (implicitly available in BeanShell tools)\n// 2. Resolve the form hash variable dynamically\nString resolvedEmail = AppUtil.processHashVariable(\&quot;#form.Company_Booking.booker_s_email#\&quot;, assignment, null, null);\n\n// Option A: Prints to tomcat/logs/catalina.out\nSystem.out.println(\&quot;====== [DEBUG SYSTEM.OUT] Email Resolved To: \&quot; + resolvedEmail + \&quot; ======\&quot;);\n\n// Option B: Prints directly to tomcat/logs/joget.log (Highly Recommended)\nLogUtil.info(\&quot;CUSTOM_DEBUG_EMAIL\&quot;, \&quot;Email Resolved To: \&quot; + resolvedEmail);&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>submitParkEntryRequest::informridemanagerrejected_2</string>
                <packageActivityPlugin>
                   <processDefId>submitParkEntryRequest</processDefId>

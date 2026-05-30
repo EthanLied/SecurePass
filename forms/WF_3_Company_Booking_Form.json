@@ -266,9 +266,9 @@
                     "properties": {
                         "permissionType": "",
                         "padding": "",
-                        "stretchingMode": "auto",
+                        "stretchingMode": "responsive",
                         "maxSizeMsg": "File size limit exceeded (15MB)",
-                        "configuration": "current",
+                        "configuration": "popup",
                         "validator": {
                             "className": "",
                             "properties": {}

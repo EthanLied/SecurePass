@@ -45,7 +45,7 @@
                         },
                         "keyName": "",
                         "label": "Submit Wheelchair Usage Request",
-                        "redirectTarget": "",
+                        "redirectTarget": "top",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
                         "customId": "submit_wheelchair_usage",

@@ -1,6 +1,5 @@
 {
     "elements": [
-        {"className": "menu-component"},
         {
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
             "properties": {
@@ -84,7 +83,8 @@
                 "value": "#datalist.size.companyBookingRequestParkManagerList#",
                 "height": ""
             }
-        }
+        },
+        {"className": "menu-component"}
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
     "properties": {"id": "up-E042DFD790F44FF16FCFDE934C2262D0"}

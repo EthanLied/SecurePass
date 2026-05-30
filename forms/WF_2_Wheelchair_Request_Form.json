@@ -345,8 +345,8 @@
                 {
                     "className": "org.joget.marketplace.InvisibleRecaptchaField",
                     "properties": {
-                        "siteKey": "6Ld7DgQtAAAAALROruOfxITrZZmOwceXW_jjSxZl",
-                        "secretKey": "6Ld7DgQtAAAAAJ5GPb-eBLnog-QirW5HfBcHMQe5",
+                        "siteKey": "6LfGDwQtAAAAAIirkTTJXVg1Wr52qPWZXj9n6Owb",
+                        "secretKey": "6LfGDwQtAAAAAP5MrJbCRXmqK_qX0MSelm15f5SW",
                         "customError": "Captcha Failed, please try again!",
                         "id": "Recaptcha",
                         "debugMode": "enabled"

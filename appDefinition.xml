@@ -59,6 +59,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>submitWheelchairUsageRequest::submitWheelchairRequestForm</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>submitWheelchairRequestForm</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process3::parkmanagerformwf3</string>
                <packageActivityForm>
                   <processDefId>process3</processDefId>
@@ -81,12 +90,30 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>submitWheelchairUsageRequest::wheelchairApprovalForm</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>wheelchairApprovalForm</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process3::submitCompanyBookingForm</string>
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>submitCompanyBookingForm</activityDefId>
                   <formId>WF_3_Company_Booking_Form</formId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>submitWheelchairUsageRequest::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>

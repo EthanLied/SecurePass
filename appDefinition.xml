@@ -124,10 +124,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>submitParkEntryRequest::parkManagerApprovalForm</string>
+               <string>submitParkEntryRequest::parkManagerApprovalForm2</string>
                <packageActivityForm>
                   <processDefId>submitParkEntryRequest</processDefId>
-                  <activityDefId>parkManagerApprovalForm</activityDefId>
+                  <activityDefId>parkManagerApprovalForm2</activityDefId>
                   <formId>parkManagerApproval</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>

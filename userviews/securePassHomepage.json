@@ -138,6 +138,29 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
+                    "className": "org.joget.plugin.enterprise.DashboardMenu",
+                    "properties": {
+                        "defaultPortletWidth": "1",
+                        "customHeader": "",
+                        "autoHeight": "",
+                        "defaultPortletHeight": "250",
+                        "resizable": "",
+                        "plugins": [],
+                        "style-color": "#F5F5F5",
+                        "customFooter": "",
+                        "label": "Dashboard",
+                        "enableOffline": "",
+                        "customId": "",
+                        "mode": "",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": "",
+                        "userviewId": "securePassHomepage",
+                        "id": "FF864896F2504C46A59CE3E880B5E063",
+                        "iconIncluded": false,
+                        "customPortletSetting": []
+                    }
+                },
+                {
                     "className": "org.joget.plugin.enterprise.CrudMenu",
                     "properties": {
                         "list-customFooter": "",
@@ -260,6 +283,29 @@
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
+                {
+                    "className": "org.joget.plugin.enterprise.DashboardMenu",
+                    "properties": {
+                        "defaultPortletWidth": "1",
+                        "customHeader": "",
+                        "autoHeight": "",
+                        "defaultPortletHeight": "250",
+                        "resizable": "",
+                        "plugins": [],
+                        "style-color": "#F5F5F5",
+                        "customFooter": "",
+                        "label": "Dashboard",
+                        "enableOffline": "",
+                        "customId": "",
+                        "mode": "",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": "",
+                        "userviewId": "securePassHomepage",
+                        "id": "A4B8E6684A53467657DF0E587DF51639",
+                        "iconIncluded": false,
+                        "customPortletSetting": []
+                    }
+                },
                 {
                     "className": "org.joget.plugin.enterprise.CrudMenu",
                     "properties": {

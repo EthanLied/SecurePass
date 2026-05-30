@@ -51,10 +51,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>submitWheelchairUsageRequest::parkManagerApprovalForm</string>
+               <string>submitWheelchairUsageRequest::wheelchairApprovalForm</string>
                <packageActivityForm>
                   <processDefId>submitWheelchairUsageRequest</processDefId>
-                  <activityDefId>parkManagerApprovalForm</activityDefId>
+                  <activityDefId>wheelchairApprovalForm</activityDefId>
                   <formId>WF2_park_manager_approval</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>

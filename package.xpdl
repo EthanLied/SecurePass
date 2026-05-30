@@ -380,7 +380,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="480,714"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="informparkmanagerrejectedwf2_2_2" Name="InformParkManagerRejectedWF2">
+                <Activity Id="informRequestSubmitted" Name="Inform Request Submitted">
                     <Implementation>
                         <Tool Id="default_application"/>
                     </Implementation>
@@ -417,13 +417,13 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="submitWheelchairRequestForm" Id="transition8" To="informparkmanagerrejectedwf2_2_2">
+                <Transition From="submitWheelchairRequestForm" Id="transition8" To="informRequestSubmitted">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="informparkmanagerrejectedwf2_2_2" Id="transition9" To="wheelchairApprovalForm">
+                <Transition From="informRequestSubmitted" Id="transition9" To="wheelchairApprovalForm">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>

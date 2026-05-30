@@ -11,58 +11,69 @@
                 "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row align-items-center align-items-stretch border-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-left\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
                 "attr-data-events-listening": [],
                 "color": "#348FE2",
-                "icon": "<i class=\"fas fa-globe\"><\/i>",
-                "link": "",
-                "id": "0D62A923EB474C22C08CE3EEF6102679",
-                "title": "Total Park Entry Requests",
-                "iconIncluded": true,
-                "value": "#datalist.size.entryRequestParkManagerList#",
-                "customId": ""
-            }
-        },
-        {
-            "className": "org.joget.plugin.enterprise.InformationTileComponent",
-            "properties": {
-                "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row align-items-center align-items-stretch border-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-left\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
-                "attr-data-events-listening": [],
-                "color": "#348FE2",
-                "icon": "<i class=\"fas fa-globe\"><\/i>",
-                "link": "",
-                "id": "05E6F6477A77426C8C2B5E9651DC2AB3",
-                "title": "Total Wheelchair Requests",
-                "iconIncluded": true,
-                "value": "#datalist.size.wheelchairRequestInboxList#",
-                "customId": ""
-            }
-        },
-        {
-            "className": "org.joget.plugin.enterprise.InformationTileComponent",
-            "properties": {
-                "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row align-items-center align-items-stretch border-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-left\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
-                "attr-data-events-listening": [],
-                "color": "#348FE2",
-                "icon": "<i class=\"fas fa-globe\"><\/i>",
-                "link": "",
-                "id": "6FEB38B067434D90DF67A05D95FC7152",
-                "title": "Total Company Booking Requests",
-                "iconIncluded": true,
-                "value": "#datalist.size.companyBookingRequestParkManagerList#",
-                "customId": ""
-            }
-        },
-        {
-            "className": "org.joget.plugin.enterprise.InformationTileComponent",
-            "properties": {
-                "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row align-items-center align-items-stretch border-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-left\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
-                "attr-data-events-listening": [],
-                "color": "#348FE2",
-                "icon": "<i class=\"fas fa-globe\"><\/i>",
+                "icon": "<i class=\"fas fa-inbox\"><\/i>",
                 "link": "",
                 "id": "13AA061BF6BD4E205BB5419B507785FF",
                 "title": "Total Inbox Items",
                 "iconIncluded": true,
                 "value": "#uiListCount.0094002A3A05407577EDFBB44B18C759#",
                 "customId": ""
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "properties": {
+                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#5d9cec}};\n            background-image:url('{{bgImg}}');  \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\n                width: unset;\n                padding: 0;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body text-center\">\n        <div class=\"stats-info\">\n            <p style=\"font-size: 32px; \n                      margin-bottom: 10px;\">\n                {{value||3,291,922}}\n            <\/p>\n            <h4 style=\"font-size: 12px; \n                       font-weight:thin; \n                       margin-bottom: 20px;\">\n                {{title||VISITS}}\n            <\/h4>\n        <\/div>\n        <div class=\"stats-icon\" \n             style=\"font-size: 16px; \n                    color: #fff; \n                    line-height:0;\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                "attr-data-events-listening": [],
+                "color": "#348FE2",
+                "icon": "<i class=\"fas fa-road-barrier\"><\/i>",
+                "link": "",
+                "bgImg": "",
+                "title": "Total Park Entry Requests",
+                "customId": "",
+                "reload": "",
+                "bgColor": "",
+                "subvalue": "",
+                "id": "0D62A923EB474C22C08CE3EEF6102679",
+                "iconIncluded": true,
+                "value": "#datalist.size.entryRequestParkManagerList#",
+                "height": ""
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "properties": {
+                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#5d9cec}};\n            background-image:url('{{bgImg}}');  \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\n                width: unset;\n                padding: 0;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body text-center\">\n        <div class=\"stats-info\">\n            <p style=\"font-size: 32px; \n                      margin-bottom: 10px;\">\n                {{value||3,291,922}}\n            <\/p>\n            <h4 style=\"font-size: 12px; \n                       font-weight:thin; \n                       margin-bottom: 20px;\">\n                {{title||VISITS}}\n            <\/h4>\n        <\/div>\n        <div class=\"stats-icon\" \n             style=\"font-size: 16px; \n                    color: #fff; \n                    line-height:0;\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                "attr-data-events-listening": [],
+                "color": "#348FE2",
+                "icon": "<i class=\"fab fa-accessible-icon\"><\/i>",
+                "link": "",
+                "bgImg": "",
+                "title": "Total Wheelchair Requests",
+                "customId": "",
+                "reload": "",
+                "id": "05E6F6477A77426C8C2B5E9651DC2AB3",
+                "iconIncluded": true,
+                "value": "#datalist.size.wheelchairRequestInboxList#",
+                "height": ""
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "properties": {
+                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#5d9cec}};\n            background-image:url('{{bgImg}}');  \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\n                width: unset;\n                padding: 0;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body text-center\">\n        <div class=\"stats-info\">\n            <p style=\"font-size: 32px; \n                      margin-bottom: 10px;\">\n                {{value||3,291,922}}\n            <\/p>\n            <h4 style=\"font-size: 12px; \n                       font-weight:thin; \n                       margin-bottom: 20px;\">\n                {{title||VISITS}}\n            <\/h4>\n        <\/div>\n        <div class=\"stats-icon\" \n             style=\"font-size: 16px; \n                    color: #fff; \n                    line-height:0;\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                "attr-data-events-listening": [],
+                "color": "#348FE2",
+                "icon": "<i class=\"fas fa-people-group\"><\/i>",
+                "link": "",
+                "bgImg": "",
+                "title": "Total Company Booking Requests",
+                "customId": "",
+                "reload": "",
+                "id": "6FEB38B067434D90DF67A05D95FC7152",
+                "iconIncluded": true,
+                "value": "#datalist.size.companyBookingRequestParkManagerList#",
+                "height": ""
             }
         }
     ],

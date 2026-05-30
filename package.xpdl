@@ -97,7 +97,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="180,610"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="parkManagerApprovalForm2" Name="Park Entry Approval Form">
+                <Activity Id="parkManagerApprovalForm" Name="Park Manager Approval Form">
                     <Limit>12</Limit>
                     <Implementation>
                         <No/>
@@ -236,6 +236,25 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
+                <Transition From="informridemanagerapprovedwf1" Id="transition8" To="parkManagerApprovalForm">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="parkManagerApprovalForm" Id="transition12" To="informparkmanagerrejectedwf12">
+                    <Condition Type="EXCEPTION">ParkManagerTimeout</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="parkManagerApprovalForm" Id="transition17" To="WF1_ParkManagerDecision">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
                 <Transition From="submitParkEntryRequest" Id="transition10" To="parkEntryApprovalForm">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
@@ -250,25 +269,6 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="parkEntryApprovalForm" Id="transition15" To="WF1_RideManagerDecision">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="informridemanagerapprovedwf1" Id="transition8" To="parkManagerApprovalForm2">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="parkManagerApprovalForm2" Id="transition12" To="informparkmanagerrejectedwf12">
-                    <Condition Type="EXCEPTION">ParkManagerTimeout</Condition>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="parkManagerApprovalForm2" Id="transition17" To="WF1_ParkManagerDecision">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>

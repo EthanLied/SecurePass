@@ -34,7 +34,6 @@
                 "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#5d9cec}};\n            background-image:url('{{bgImg}}');  \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\n                width: unset;\n                padding: 0;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body text-center\">\n        <div class=\"stats-info\">\n            <p style=\"font-size: 32px; \n                      margin-bottom: 10px;\">\n                {{value||3,291,922}}\n            <\/p>\n            <h4 style=\"font-size: 12px; \n                       font-weight:thin; \n                       margin-bottom: 20px;\">\n                {{title||VISITS}}\n            <\/h4>\n        <\/div>\n        <div class=\"stats-icon\" \n             style=\"font-size: 16px; \n                    color: #fff; \n                    line-height:0;\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
                 "attr-data-events-listening": [],
                 "color": "#348FE2",
-                "style-color": "#FFFFFF",
                 "icon": "<i class=\"fas fa-road-barrier\"><\/i>",
                 "link": "",
                 "bgImg": "",

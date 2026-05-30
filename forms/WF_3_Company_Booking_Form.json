@@ -171,8 +171,9 @@
                 {
                     "className": "org.joget.marketplace.GridSearchFilterElement",
                     "properties": {
-                        "fieldPosition": "",
+                        "fieldPosition": "right",
                         "searchAllColumns": "true",
+                        "gridField": "full_name",
                         "placeholder": "Search...",
                         "id": "field11"
                     }

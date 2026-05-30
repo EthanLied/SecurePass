@@ -14,7 +14,7 @@
                 "icon": "<i class=\"fas fa-globe\"><\/i>",
                 "link": "",
                 "id": "0D62A923EB474C22C08CE3EEF6102679",
-                "title": "Total Ride Entry Requests",
+                "title": "Total Park Entry Requests",
                 "iconIncluded": true,
                 "value": "#datalist.size.entryRequestParkManagerList#",
                 "customId": ""
@@ -48,6 +48,17 @@
                 "iconIncluded": true,
                 "value": "#datalist.size.companyBookingRequestParkManagerList#",
                 "customId": ""
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "properties": {
+                "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row align-items-center align-items-stretch border-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-left\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                "color": "#348fe2",
+                "icon": "<i class=\"fas fa-globe\"><\/i>",
+                "id": "13AA061BF6BD4E205BB5419B507785FF",
+                "title": "TOTAL VISITS",
+                "value": "3,291,922"
             }
         }
     ],

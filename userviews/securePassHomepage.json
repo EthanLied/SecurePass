@@ -562,33 +562,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.userview.lib.InboxMenu",
-                    "properties": {
-                        "appFilter": "all",
-                        "list-customFooter": "",
-                        "cacheAllLinks": "",
-                        "assignment-customHeader": "",
-                        "permission_rules": {
-                            "4884d721-1eea-e6a9-0e19-b74186895774": {},
-                            "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
-                            "0b1133ec-e05b-70d3-95a2-2e6e95dd9edd": {}
-                        },
-                        "assignment-customFooter": "",
-                        "label": "Park Manager Inbox",
-                        "enableOffline": "",
-                        "customId": "",
-                        "buttonPosition": "bothLeft",
-                        "userviewCacheDuration": "",
-                        "processId": "process3",
-                        "userviewCacheScope": "",
-                        "showPopup": "",
-                        "rowCount": "",
-                        "id": "0094002A3A05407577EDFBB44B18C759",
-                        "iconIncluded": false,
-                        "list-customHeader": ""
-                    }
-                },
-                {
                     "className": "org.joget.plugin.enterprise.CrudMenu",
                     "properties": {
                         "list-customFooter": "",
@@ -637,6 +610,33 @@
                         "list-moreActions": [],
                         "edit-backButtonLabel": "",
                         "list-editLinkTarget": "",
+                        "list-customHeader": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.InboxMenu",
+                    "properties": {
+                        "appFilter": "all",
+                        "list-customFooter": "",
+                        "cacheAllLinks": "",
+                        "assignment-customHeader": "",
+                        "permission_rules": {
+                            "4884d721-1eea-e6a9-0e19-b74186895774": {},
+                            "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
+                            "0b1133ec-e05b-70d3-95a2-2e6e95dd9edd": {}
+                        },
+                        "assignment-customFooter": "",
+                        "label": "Park Manager Inbox",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "bothLeft",
+                        "userviewCacheDuration": "",
+                        "processId": "process3",
+                        "userviewCacheScope": "",
+                        "showPopup": "",
+                        "rowCount": "",
+                        "id": "0094002A3A05407577EDFBB44B18C759",
+                        "iconIncluded": false,
                         "list-customHeader": ""
                     }
                 }

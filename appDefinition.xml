@@ -18,21 +18,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>submitCompanyBookingRequest::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>submitCompanyBookingRequest</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>submitCompanyBookingRequest::submitCompanyBookingForm</string>
                <packageActivityForm>
                   <processDefId>submitCompanyBookingRequest</processDefId>
                   <activityDefId>submitCompanyBookingForm</activityDefId>
                   <formId>WF_3_Company_Booking_Form</formId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>submitCompanyBookingRequest::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>submitCompanyBookingRequest</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>

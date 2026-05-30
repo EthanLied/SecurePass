@@ -9,11 +9,6 @@
                     "properties": {
                         "runProcessDirectly": "",
                         "fieldPassoverMethod": "append",
-                        "permission_rules": {
-                            "4884d721-1eea-e6a9-0e19-b74186895774": {},
-                            "8a4f471d-c915-3e5d-6cf4-dfa6f034099a": {},
-                            "0b1133ec-e05b-70d3-95a2-2e6e95dd9edd": {}
-                        },
                         "keyName": "",
                         "label": "Submit Park Entry Request",
                         "redirectTarget": "",
@@ -26,7 +21,7 @@
                         "userviewCacheScope": "",
                         "actionAfterSaved": "",
                         "runProcessSubmitLabel": "",
-                        "id": "3A0569BFD1454C325755D68650281ADC",
+                        "id": "E73285AD854445E42D005A3D07534BED",
                         "iconIncluded": false,
                         "processDefId": "submitParkEntryRequest",
                         "redirectUrlAfterComplete": "",

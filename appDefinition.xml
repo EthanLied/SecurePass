@@ -93,17 +93,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>submitCompanyBookingRequest::rideManagerApprovalForm</string>
-               <packageActivityForm>
-                  <processDefId>submitCompanyBookingRequest</processDefId>
-                  <activityDefId>rideManagerApprovalForm</activityDefId>
-                  <formId>wf3RideManagerApproval</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>submitCompanyBookingRequest::companyBookingApprovalForm</string>
                <packageActivityForm>
                   <processDefId>submitCompanyBookingRequest</processDefId>
@@ -119,6 +108,17 @@
                <packageActivityForm>
                   <processDefId>submitParkEntryRequest</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>submitCompanyBookingRequest::wheelchairUsageApprovalForm2</string>
+               <packageActivityForm>
+                  <processDefId>submitCompanyBookingRequest</processDefId>
+                  <activityDefId>wheelchairUsageApprovalForm2</activityDefId>
+                  <formId>wf3RideManagerApproval</formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>

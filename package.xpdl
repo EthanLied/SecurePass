@@ -495,7 +495,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="160,516"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="rideManagerApprovalForm" Name="Ride Manager Approval Form">
+                <Activity Id="wheelchairUsageApprovalForm2" Name="Wheelchair Usage Approval Form">
                     <Limit>12</Limit>
                     <Implementation>
                         <No/>
@@ -509,7 +509,7 @@
                         <TransitionRestriction>
                             <Split Type="XOR">
                                 <TransitionRefs>
-                                    <TransitionRef Id="transition16"/>
+                                    <TransitionRef Id="transition13"/>
                                     <TransitionRef Id="transition17"/>
                                 </TransitionRefs>
                             </Split>
@@ -709,25 +709,6 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="informsecurityteamapproved" Id="transition13" To="rideManagerApprovalForm">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="rideManagerApprovalForm" Id="transition16" To="informridemanagerrejected2">
-                    <Condition Type="EXCEPTION">RideManagerTimeout</Condition>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="rideManagerApprovalForm" Id="transition17" To="WF3_RideManagerDecision">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
                 <Transition From="informridemanagerapproved" Id="transition15" To="parkManagerApprovalForm">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
@@ -761,6 +742,25 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="companyBookingApprovalForm" Id="transition26" To="SecurityTeamDecision">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="wheelchairUsageApprovalForm2" Id="transition13" To="informridemanagerrejected2">
+                    <Condition Type="EXCEPTION">RideManagerTimeout</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="informsecurityteamapproved" Id="transition16" To="wheelchairUsageApprovalForm2">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="wheelchairUsageApprovalForm2" Id="transition17" To="WF3_RideManagerDecision">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>

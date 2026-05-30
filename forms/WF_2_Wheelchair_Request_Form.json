@@ -345,11 +345,11 @@
                 {
                     "className": "org.joget.marketplace.InvisibleRecaptchaField",
                     "properties": {
-                        "siteKey": "6LfGDwQtAAAAAIirkTTJXVg1Wr52qPWZXj9n6Owb",
-                        "secretKey": "6LfGDwQtAAAAAP5MrJbCRXmqK_qX0MSelm15f5SW",
+                        "siteKey": "6Ld1EQQtAAAAAAFb-v0RPY3c0UhSmPPr3FhPPhT0",
+                        "secretKey": "6Ld1EQQtAAAAAE5uPrKOFEHGjql3J05IoHWMJo5o",
                         "customError": "Captcha Failed, please try again!",
                         "id": "Recaptcha",
-                        "debugMode": "enabled"
+                        "debugMode": ""
                     }
                 }
             ],

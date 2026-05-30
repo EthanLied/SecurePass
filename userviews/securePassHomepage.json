@@ -551,7 +551,7 @@
                         "add-customFooter": "",
                         "addFormId": "",
                         "edit-allowRecordTraveling": "",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "CD0D69BBD9D64221E1013BE06F7BEE36",
                         "iconIncluded": false,
                         "edit-readonlyLabel": "true",

@@ -9,10 +9,10 @@
          <name>Secure Pass</name>
          <packageActivityFormMap>
             <entry>
-               <string>submitCompanyBookingRequest::parkManagerApprovalForm</string>
+               <string>submitCompanyBookingRequest::wheelchairUsageApprovalForm3</string>
                <packageActivityForm>
                   <processDefId>submitCompanyBookingRequest</processDefId>
-                  <activityDefId>parkManagerApprovalForm</activityDefId>
+                  <activityDefId>wheelchairUsageApprovalForm3</activityDefId>
                   <formId>WF3_park_manager_approval</formId>
                   <type>SINGLE</type>
                   <autoContinue>true</autoContinue>

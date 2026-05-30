@@ -343,13 +343,28 @@
                     }
                 },
                 {
-                    "className": "org.joget.marketplace.InvisibleRecaptchaField",
+                    "className": "org.joget.marketplace.VideoPlayerPlugin",
                     "properties": {
-                        "siteKey": "6Ld1EQQtAAAAAAFb-v0RPY3c0UhSmPPr3FhPPhT0",
-                        "secretKey": "6Ld1EQQtAAAAAE5uPrKOFEHGjql3J05IoHWMJo5o",
-                        "customError": "",
-                        "id": "Captcha",
-                        "debugMode": "enabled"
+                        "permissionType": "",
+                        "padding": "",
+                        "stretchingMode": "auto",
+                        "maxSizeMsg": "File size limit exceeded (15MB)",
+                        "configuration": "popup",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "maxSize": "15000",
+                        "label": "Video File Upload (Optional)",
+                        "videoHeight": "600px",
+                        "videoWidth": "900px",
+                        "removeFile": "",
+                        "readonly": "",
+                        "attachment": "",
+                        "size": "",
+                        "fileTypeMsg": "Invalid file type",
+                        "id": "video_file_upload_optional",
+                        "fileType": ".mp4"
                     }
                 }
             ],

@@ -273,7 +273,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "maxSize": "",
+                        "maxSize": "10240",
                         "label": "Video File Upload (Optional)",
                         "videoHeight": "600px",
                         "videoWidth": "900px",
@@ -283,7 +283,7 @@
                         "size": "",
                         "fileTypeMsg": "Invalid file type",
                         "id": "field11",
-                        "fileType": ""
+                        "fileType": ".mp4"
                     }
                 },
                 {

@@ -53,7 +53,7 @@
                         "userviewCacheDuration": "",
                         "showInPopupDialog": "",
                         "userviewCacheScope": "",
-                        "actionAfterSaved": "",
+                        "actionAfterSaved": "reload",
                         "runProcessSubmitLabel": "",
                         "id": "0E2A510395224E442F1505A381D1A30C",
                         "iconIncluded": false,

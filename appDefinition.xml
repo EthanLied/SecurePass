@@ -20,17 +20,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>submitParkEntryRequest::rideManagerApprovalForm</string>
-               <packageActivityForm>
-                  <processDefId>submitParkEntryRequest</processDefId>
-                  <activityDefId>rideManagerApprovalForm</activityDefId>
-                  <formId>rideManagerApproval</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>submitCompanyBookingRequest::securityTeamApprovalForm</string>
                <packageActivityForm>
                   <processDefId>submitCompanyBookingRequest</processDefId>
@@ -87,6 +76,17 @@
                   <processDefId>submitParkEntryRequest</processDefId>
                   <activityDefId>submitParkEntryRequest</activityDefId>
                   <formId>WF_1_Park_Entry_Form</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>submitParkEntryRequest::parkEntryApprovalForm</string>
+               <packageActivityForm>
+                  <processDefId>submitParkEntryRequest</processDefId>
+                  <activityDefId>parkEntryApprovalForm</activityDefId>
+                  <formId>rideManagerApproval</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>

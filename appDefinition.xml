@@ -335,6 +335,33 @@
                   <value>admin</value>
                </packageParticipant>
             </entry>
+            <entry>
+               <string>submitParkEntryRequest::parkManagerwf1</string>
+               <packageParticipant>
+                  <processDefId>submitParkEntryRequest</processDefId>
+                  <participantId>parkManagerwf1</participantId>
+                  <type>user</type>
+                  <value>admin</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>submitParkEntryRequest::customerwf1</string>
+               <packageParticipant>
+                  <processDefId>submitParkEntryRequest</processDefId>
+                  <participantId>customerwf1</participantId>
+                  <type>requester</type>
+                  <value></value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>submitParkEntryRequest::rideManagerwf1</string>
+               <packageParticipant>
+                  <processDefId>submitParkEntryRequest</processDefId>
+                  <participantId>rideManagerwf1</participantId>
+                  <type>user</type>
+                  <value>clark</value>
+               </packageParticipant>
+            </entry>
          </packageParticipantMap>
       </packageDefinition>
    </packageDefinitionList>

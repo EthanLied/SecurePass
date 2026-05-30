@@ -736,6 +736,62 @@
                 "permissionDeny": "",
                 "iconIncluded": false
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.plugin.enterprise.CrudMenu",
+                "properties": {
+                    "list-customFooter": "",
+                    "add-afterSavedRedirectUrl": "",
+                    "edit-customHeader": "",
+                    "editFormId": "WF_1_Park_Entry_Form",
+                    "edit-afterSavedRedirectParamName": "",
+                    "edit-saveButtonLabel": "",
+                    "list-showDeleteButton": "yes",
+                    "list-newButtonLabel": "",
+                    "edit-afterSavedRedirectUrl": "",
+                    "edit-prevButtonLabel": "",
+                    "add-afterSavedRedirectParamName": "",
+                    "customId": "WF_1_Park_Entry_Form_crud",
+                    "edit-afterSaved": "list",
+                    "list-deleteButtonLabel": "",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "add-customFooter": "",
+                    "addFormId": "WF_1_Park_Entry_Form",
+                    "edit-allowRecordTraveling": "",
+                    "id": "ce447d32-c5df-4c8b-87e7-b0600aac4c01",
+                    "rowCount": "true",
+                    "add-messageShowAfterComplete": "",
+                    "edit-readonlyLabel": "",
+                    "list-editLinkLabel": "",
+                    "add-cancelButtonLabel": "",
+                    "edit-afterSavedRedirectParamvalue": "",
+                    "edit-customFooter": "",
+                    "keyName": "",
+                    "label": "Manage WF-1 Park Entry Form",
+                    "add-customHeader": "",
+                    "edit-lastButtonLabel": "",
+                    "edit-readonly": "",
+                    "buttonPosition": "bothLeft",
+                    "edit-firstButtonLabel": "",
+                    "datalistId": "entryRequestParkManagerList",
+                    "add-saveButtonLabel": "",
+                    "edit-nextButtonLabel": "",
+                    "edit-messageShowAfterComplete": "",
+                    "edit-moreActions": [],
+                    "list-moreActions": [],
+                    "add-afterSaved": "list",
+                    "edit-backButtonLabel": "",
+                    "add-afterSavedRedirectParamvalue": "",
+                    "list-customHeader": ""
+                }
+            }],
+            "properties": {
+                "id": "category-69dd85f0-a521-4415-b1cb-c0c0bbfd94f4",
+                "label": "<i class='fa fa-tasks'><\/i>Manage WF-1 Park Entry Form"
+            }
         }
     ],
     "properties": {

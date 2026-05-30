@@ -266,25 +266,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextArea",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "readonly": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "workflowVariable": "",
-                        "label": "Other Notes (Optional)",
-                        "id": "other",
-                        "placeholder": "",
-                        "rows": "5",
-                        "cols": "20",
-                        "value": "",
-                        "readonlyLabel": ""
-                    }
-                },
-                {
                     "className": "org.joget.marketplace.VideoPlayerPlugin",
                     "properties": {
                         "permissionType": "",
@@ -307,6 +288,25 @@
                         "fileTypeMsg": "Invalid file type",
                         "id": "video_file_upload_optional",
                         "fileType": ".mp4"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Other Notes (Optional)",
+                        "id": "other",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 }
             ],

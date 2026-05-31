@@ -1,0 +1,123 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "parentSubFormId": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "",
+                        "formDefId": "WF_3_Company_Booking_Form",
+                        "subFormParentId": "",
+                        "id": "field3",
+                        "label": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "fullWidth": "",
+                        "controlField": "",
+                        "readonly": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "label": "Approved",
+                                "value": "Approved",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Rejected",
+                                "value": "Rejected",
+                                "grouping": ""
+                            }
+                        ],
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "workflowVariable": "WF3_ParkManagerApproval",
+                        "label": "Decision",
+                        "id": "decision",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Additional Notes",
+                        "id": "field1",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                }
+            ],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Park Manager Approval Form",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "park_manager_approval_form",
+            "join": "",
+            "readonlyLabel": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "WF-3 Park Manager Approval",
+        "description": "",
+        "id": "WF3_park_manager_approval",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "WF3_park_manager"
+    }
+}

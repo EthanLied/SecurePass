@@ -1,0 +1,174 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Booker's full name",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "booker_s_full_name",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_0",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Booker's email",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "booker_s_email",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Date of Entry",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "date_of_entry",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_8",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Entry Time",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "entry_time",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_9",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Park Manager Decission",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "WF3_park_manager.decision",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Date Created",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "dateCreated",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_12",
+            "alignment": ""
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Company Booking Request Park Manager List",
+    "id": "companyBookingRequestParkManagerList",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "joins": [{
+                "joinFieldId": "id",
+                "tableName": "WF3_park_manager",
+                "fieldId": "WF3_park_manager.id"
+            }],
+            "aggregateField": [],
+            "formDefId": "WF_3_Company_Booking_Form",
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "groupBy": "",
+            "cacheRowCount": "",
+            "functionColumns": []
+        }
+    },
+    "actions": [],
+    "order": ""
+}

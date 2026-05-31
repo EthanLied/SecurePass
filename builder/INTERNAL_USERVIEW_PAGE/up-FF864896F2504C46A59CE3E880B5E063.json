@@ -1,0 +1,53 @@
+{
+    "elements": [
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<div style=\"background: #ffffff; padding: 24px; border-radius: 6px; border-left: 6px solid #348FE2; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 20px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\">\n    <h2 style=\"margin: 0 0 6px 0; color: #1a202c; font-size: 22px; font-weight: 600; letter-spacing: -0.5px;\">\n        Security Manager Dashboard\n    <\/h2>\n    <p style=\"margin: 0; color: #4a5568; font-size: 14px; line-height: 1.6;\">\n        Welcome to your Dashboard. This dashboard aggregates live data and process flows dedicated to park security and safety administration. Use the indicators below to monitor and track your security manager assignments and handle any pending requests in your inbox requiring your authorization.\n    <\/p>\n<\/div>",
+                "id": "9C9201580BB345009A0558EB6E3449CC",
+                "customId": ""
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {"id": "6102445D1D6D433DADDE61769AC7FA3A"}
+        },
+        {
+            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "properties": {
+                "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row align-items-center align-items-stretch border-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-left\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                "attr-data-events-listening": [],
+                "color": "#E23434",
+                "icon": "<i class=\"fas fa-inbox\"><\/i>",
+                "link": "",
+                "id": "13AA061BF6BD4E205BB5419B507785FF",
+                "title": "Total Inbox Items",
+                "iconIncluded": true,
+                "value": "#loggedInUser.runningCount#",
+                "customId": ""
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "properties": {
+                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#5d9cec}};\n            background-image:url('{{bgImg}}');  \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\n                width: unset;\n                padding: 0;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body text-center\">\n        <div class=\"stats-info\">\n            <p style=\"font-size: 32px; \n                      margin-bottom: 10px;\">\n                {{value||3,291,922}}\n            <\/p>\n            <h4 style=\"font-size: 12px; \n                       font-weight:thin; \n                       margin-bottom: 20px;\">\n                {{title||VISITS}}\n            <\/h4>\n        <\/div>\n        <div class=\"stats-icon\" \n             style=\"font-size: 16px; \n                    color: #fff; \n                    line-height:0;\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                "attr-data-events-listening": [],
+                "color": "#348FE2",
+                "icon": "<i class=\"fas fa-people-group\"><\/i>",
+                "link": "",
+                "bgImg": "",
+                "title": "Total Company Booking Requests",
+                "customId": "",
+                "reload": "",
+                "id": "6FEB38B067434D90DF67A05D95FC7152",
+                "iconIncluded": true,
+                "value": "#datalist.size.companyBookingRequestSecurityManagerList#",
+                "height": ""
+            }
+        },
+        {"className": "menu-component"}
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-FF864896F2504C46A59CE3E880B5E063"}
+}

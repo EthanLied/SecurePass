@@ -177,6 +177,15 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>submitWheelchairUsageRequest::informparkmanagerrejectedwf2_2</string>
+               <packageActivityPlugin>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>informparkmanagerrejectedwf2_2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Wheelchair_Request.requester_email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Park Manager Rejected&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Sorry, the park manager has rejected your form for a wheelchair request!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%uhttp5DKgmCeUSOIp4FH6bMj2bkvoo5VfYqUbO88Awk=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%w90KXuYlk6VcN+8xpe+raQ==%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process2::informparkmanagerapprovedwf1</string>
                <packageActivityPlugin>
                   <processDefId>process2</processDefId>
@@ -245,7 +254,7 @@
                   <processDefId>submitWheelchairUsageRequest</processDefId>
                   <activityDefId>informRequestSubmitted</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;form #form.Wheelchair_Request.requester_email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Submission of Wheelchair Request&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Hi! We have received your group booking submission with the following details below and is now pending review by staff members. \n\nFull Name: #form.Wheelchair_Request.requester_full_name#\n\nPhone Number: ethanjy5428@gmail.com\n\nEmail: ethanjy5428@gmail.com\n\nDate of Entry: 2026-05-05\n\nEntry Time: 2\n\nLeave Time: 2&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%xEoFX5ExXElubT0EO4UD3tVh1H0l7+J4ZFsEBnOQ6UI=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%cJM+9l4OBkozYwKFRw/NrA==%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Wheelchair_Request.requester_email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Submission of Wheelchair Request&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Hi! We have received your group booking submission with the following details below and is now pending review by staff members. \n\nFull Name: #form.Wheelchair_Request.requester_full_name#\n\nPhone Number: ethanjy5428@gmail.com\n\nEmail: ethanjy5428@gmail.com\n\nDate of Entry: 2026-05-05\n\nEntry Time: 2\n\nLeave Time: 2&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%uhttp5DKgmCeUSOIp4FH6bMj2bkvoo5VfYqUbO88Awk=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%w90KXuYlk6VcN+8xpe+raQ==%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -317,6 +326,7 @@
                   <processDefId>submitWheelchairUsageRequest</processDefId>
                   <participantId>customerwf2</participantId>
                   <type>requester</type>
+                  <value></value>
                </packageParticipant>
             </entry>
             <entry>

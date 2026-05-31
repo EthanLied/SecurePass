@@ -59,6 +59,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>submitWheelchairUsageRequest::submitWheelchairRequestForm</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>submitWheelchairRequestForm</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process3::parkmanagerformwf3</string>
                <packageActivityForm>
                   <processDefId>process3</processDefId>
@@ -81,12 +90,30 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>submitWheelchairUsageRequest::wheelchairApprovalForm</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>wheelchairApprovalForm</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process3::submitCompanyBookingForm</string>
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>submitCompanyBookingForm</activityDefId>
                   <formId>WF_3_Company_Booking_Form</formId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>submitWheelchairUsageRequest::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -174,12 +201,12 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>process2::WF2_ParkManagerApproval</string>
+               <string>submitWheelchairUsageRequest::informparkmanagerrejectedwf2</string>
                <packageActivityPlugin>
-                  <processDefId>process2</processDefId>
-                  <activityDefId>WF2_ParkManagerApproval</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
-                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;WF2_ParkManagerApproval&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;Approved&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition3&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition2&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
+                  <processDefId>submitWheelchairUsageRequest</processDefId>
+                  <activityDefId>informparkmanagerrejectedwf2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.Wheelchair_Request.requester_email#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Park Manager Approved&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Congrats! The park manager has approved your form for a wheelchair request!&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%nBrsBJO9NotnOZ9+6Z/A/q01oSUIdnIB5NinJmzTnbw=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%49OABnXOjIamgUeVYVLEgQ==%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;ethanlai5428@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;ethanlai5428@gmail.com&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -189,6 +216,15 @@
                   <activityDefId>informparkmanagerapprovedwf3</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.BeanShellTool&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;System.out.println(\&quot;End WF3\&quot;)&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>process2::WF2_ParkManagerApproval</string>
+               <packageActivityPlugin>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>WF2_ParkManagerApproval</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
+                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;WF2_ParkManagerApproval&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;Approved&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition3&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition2&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>

@@ -156,6 +156,15 @@
                   <type>requester</type>
                </packageParticipant>
             </entry>
+            <entry>
+               <string>submitParkEntryRequest::customerwf1</string>
+               <packageParticipant>
+                  <processDefId>submitParkEntryRequest</processDefId>
+                  <participantId>customerwf1</participantId>
+                  <type>requester</type>
+                  <value></value>
+               </packageParticipant>
+            </entry>
          </packageParticipantMap>
       </packageDefinition>
    </packageDefinitionList>

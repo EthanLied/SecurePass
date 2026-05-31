@@ -76,7 +76,6 @@
                   <processDefId>submitWheelchairUsageRequest</processDefId>
                   <participantId>customerwf2</participantId>
                   <type>requester</type>
-                  <value></value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>
